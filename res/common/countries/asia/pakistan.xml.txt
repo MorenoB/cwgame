@@ -1,0 +1,25 @@
+<country>
+	<name>Pakistan</name>
+	<flag>Flag of Pakistan.png</flag>
+	<information>
+		<official>Dominion of Pakistan</official>
+		<acronym>PAK</acronym>
+		<adjective>Pakistani</adjective>
+		<color>
+			<red>0</red>
+			<green>150</green>
+			<blue>65</blue>
+		</color>
+		<currency>PKR</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Liaquat Ali Khan</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

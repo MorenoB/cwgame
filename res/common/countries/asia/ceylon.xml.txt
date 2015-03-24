@@ -1,0 +1,25 @@
+<country>
+	<name>Ceylon</name>
+	<flag>Flag of Ceylon.png</flag>
+	<information>
+		<official>Dominion of Ceylon</official>
+		<acronym>CEY</acronym>
+		<adjective>Ceylonese</adjective>
+		<color>
+			<red>165</red>
+			<green>30</green>
+			<blue>75</blue>
+		</color>
+		<currency>CYR</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Don Stephen Senanayake</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

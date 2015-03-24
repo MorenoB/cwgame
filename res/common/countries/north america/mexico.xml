@@ -1,0 +1,25 @@
+<country>
+	<name>Mexico</name>
+	<flag>Flag of Mexico.png</flag>
+	<information>
+		<official>United Mexican States</official>
+		<acronym>MEX</acronym>
+		<adjective>Mexican</adjective>
+		<color>
+			<red>255</red>
+			<green>0</green>
+			<blue>91</blue>
+		</color>
+		<currency>MXN</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Miguel Alemán Valdés</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

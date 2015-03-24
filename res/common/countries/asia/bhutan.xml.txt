@@ -1,0 +1,25 @@
+<country>
+	<name>Bhutan</name>
+	<flag>Flag of Bhutan.png</flag>
+	<information>
+		<official>Kingdom of Bhutan</official>
+		<acronym>BHU</acronym>
+		<adjective>Bhutanese</adjective>
+		<color>
+			<red>200</red>
+			<green>50</green>
+			<blue>0</blue>
+		</color>
+		<currency>BTN</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Planned Economy</economy>
+		<leader>Jigme Wangchuck</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

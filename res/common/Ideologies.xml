@@ -1,0 +1,63 @@
+<ideologies>
+	<ideology>
+		<name>Socialism</name>
+		
+		<children>
+			<ideology>
+				<name>Marxism</name>
+				
+				<children>
+					<ideology>
+						<name>Leninism</name>
+						
+						<children>
+							<ideology>
+								<name>Maoism</name>
+							</ideology>
+							
+							<ideology>
+								<name>Stalinism</name>
+							</ideology>
+							
+							<ideology>
+								<name>Trotskyism</name>
+							</ideology>
+						</children>
+					</ideology>
+				</children>
+			</ideology>
+			
+			<ideology>
+				<name>Social Democracy</name>
+			</ideology>
+		</children>
+	</ideology>
+	
+	<ideology>
+		<name>Nationalism</name>
+		
+		<children>
+			<ideology>
+				<name>Religious Nationalism</name>
+			</ideology>
+			
+			<ideology>
+				<name>Fascism</name>
+				
+				<children>
+					<ideology>
+						<name>National Socialism</name>
+					</ideology>
+				</children>
+			</ideology>
+		</children>
+	</ideology>
+	
+	<ideology>
+		<name>Conservatism</name>
+	</ideology>
+	
+	<ideology>
+		<name>Liberalism</name>
+	</ideology>
+</ideologies>

@@ -1,0 +1,14 @@
+package gui.screens;
+
+public enum CurrentScreen {
+	DIPLOMACY,
+	ECONOMY,
+	ESPIONAGE,
+	MAP,
+	MILITARY,
+	ORGANISATIONS,
+	POLITICS,
+	POPULATION,
+	TECHNOLOGY,
+	TRADE;
+}

@@ -1,0 +1,25 @@
+<country>
+	<name>Panama</name>
+	<flag>Flag of Panama.png</flag>
+	<information>
+		<official>Republic of Panama</official>
+		<acronym>PAN</acronym>
+		<adjective>Panamanian</adjective>
+		<color>
+			<red>15</red>
+			<green>71</green>
+			<blue>175</blue>
+		</color>
+		<currency>USD</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Arnulfo Arias</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

@@ -1,0 +1,14 @@
+<name>Delaware</name>
+<owner>United States</owner>
+<city>Delaware</city>
+<resource>Grain</resource>
+
+<populations>
+	<population>
+		<nationality>American</nationality>
+		<religion>Protestant</religion>
+		<size>321000</size>
+		<type>Farmer</type>
+		<literacy>0.95</literacy>
+	</population>
+</populations>

@@ -1,0 +1,15 @@
+<relations>
+	<relation>
+		<country>United States</country>
+		<value>50</value>
+		<monthlyEffect>-1</monthlyEffect>
+	</relation>
+
+	<relation>
+		<country>Soviet Union</country>
+		<value>-50</value>
+		<monthlyEffect>1</monthlyEffect>
+	</relation>
+
+
+</relations>

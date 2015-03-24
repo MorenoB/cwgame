@@ -1,0 +1,25 @@
+<country>
+	<name>South Korea</name>
+	<flag>Flag of South Korea.png</flag>
+	<information>
+		<official>Republic of Korea</official>
+		<acronym>South Korea</acronym>
+		<adjective>Korean</adjective>
+		<color>
+			<red>0</red>
+			<green>52</green>
+			<blue>120</blue>
+		</color>
+		<currency>KRW</currency>
+	</information>
+
+	<politics>
+		<government>Presidential Dictatorship</government>
+		<economy>State Capitalism</economy>
+		<leader>Syngman Rhee</leader>
+	</politics>
+	
+	<population>
+		<growth>1.00152</growth>
+	</population>
+</country>

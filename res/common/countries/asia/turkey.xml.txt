@@ -1,0 +1,25 @@
+<country>
+	<name>Turkey</name>
+	<flag>Flag of Turkey.png</flag>
+	<information>
+		<official>Republic of Turkey</official>
+		<acronym>TUR</acronym>
+		<adjective>Turkish</adjective>
+		<color>
+			<red>0</red>
+			<green>75</green>
+			<blue>0</blue>
+		</color>
+		<currency>TRY</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Dirigisme</economy>
+		<leader>Ismet Inonu</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

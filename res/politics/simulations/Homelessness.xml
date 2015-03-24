@@ -1,0 +1,8 @@
+<simulation>
+	<name>Homelessness</name>
+	<internal>Homelessness</internal>
+	
+	<representation>
+		<type>REGULAR_PERCENTAGE</type>
+	</representation>
+</simulation>

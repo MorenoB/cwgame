@@ -1,0 +1,25 @@
+<country>
+	<name>Syria</name>
+	<flag>Flag of Syria.png</flag>
+	<information>
+		<official>Syrian Republic</official>
+		<acronym>SYR</acronym>
+		<adjective>Syrian</adjective>
+		<color>
+			<red>50</red>
+			<green>100</green>
+			<blue>190</blue>
+		</color>
+		<currency>SYP</currency>
+	</information>
+
+	<politics>
+		<government>Autocratic Republic</government>
+		<economy>Mixed Economy</economy>
+		<leader>Hashim al-Atassi</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

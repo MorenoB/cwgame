@@ -1,0 +1,14 @@
+<name>West Gangwon</name>
+<owner>South Korea</owner>
+<city>Wonju</city>
+<resource>Grain</resource>
+
+<populations>
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>305000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+</populations>

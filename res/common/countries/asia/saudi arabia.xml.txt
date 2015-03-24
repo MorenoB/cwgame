@@ -1,0 +1,25 @@
+<country>
+	<name>Saudi Arabia</name>
+	<flag>Flag of Saudi Arabia.png</flag>
+	<information>
+		<official>Kingdom of Saudi Arabia</official>
+		<acronym>KSA</acronym>
+		<adjective>Saudi</adjective>
+		<color>
+			<red>0</red>
+			<green>150</green>
+			<blue>0</blue>
+		</color>
+		<currency>SAR</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Saud bin Abdulaziz al-Saud</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

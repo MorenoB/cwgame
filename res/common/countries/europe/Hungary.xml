@@ -1,0 +1,25 @@
+<country>
+	<name>Hungary</name>
+	<flag>Flag of Hungary.png</flag>
+	<information>
+		<official>Hungarian People's Republic</official>
+		<acronym>HNG</acronym>
+		<adjective>Hungarian</adjective>
+		<color>
+			<red>61</red>
+			<green>141</green>
+			<blue>89</blue>
+		</color>
+		<currency>FOR</currency>
+	</information>
+
+	<politics>
+		<government>Marxist-Leninist Single-Party Socialist State</government>
+		<economy>Central Planned Economy</economy>
+		<leader>Mátyás Rákosi</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

@@ -1,0 +1,25 @@
+<country>
+	<name>New Zealand</name>
+	<flag>Flag of New Zealand.png</flag>
+	<information>
+		<official>Realm of New Zealand</official>
+		<acronym>NZ</acronym>
+		<adjective>New Zealand</adjective>
+		<color>
+			<red>55</red>
+			<green>200</green>
+			<blue>130</blue>
+		</color>
+		<currency>JPY</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Peter Fraser</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

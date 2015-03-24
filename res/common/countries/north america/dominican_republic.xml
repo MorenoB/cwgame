@@ -1,0 +1,25 @@
+<country>
+	<name>Dominican Republic</name>
+	<flag>Flag of the Dominican Republic.png</flag>
+	<information>
+		<official>Dominican Republic</official>
+		<acronym>DOR</acronym>
+		<adjective>Dominican</adjective>
+		<color>
+			<red>255</red>
+			<green>191</green>
+			<blue>0</blue>
+		</color>
+		<currency>DOP</currency>
+	</information>
+
+	<politics>
+		<government>Authoritarian Dictatorship</government>
+		<economy>Market Economy</economy>
+		<leader>Rafael Trujillo</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

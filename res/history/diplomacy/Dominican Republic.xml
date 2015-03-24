@@ -1,0 +1,24 @@
+<relations>
+	<relation>
+		<country>
+			Soviet Union
+		</country>
+		<value>
+			0
+		</value>
+		<monthlyEffect>
+			0
+		</monthlyEffect>
+	</relation>
+	<relation>
+		<country>
+			United States
+		</country>
+		<value>
+			0
+		</value>
+		<monthlyEffect>
+			0
+		</monthlyEffect>
+	</relation>
+</relations>

@@ -1,0 +1,37 @@
+<name>North Pyongan</name>
+<owner>North Korea</owner>
+<city>Nyongbyon</city>
+<resource>Timber</resource>
+<coastal>true</coastal>
+
+<populations>
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>1790000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+	
+	<population>
+		<nationality>Chinese</nationality>
+		<religion>Atheist</religion>
+		<size>10000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+	
+	<population>
+		<nationality>Japanese</nationality>
+		<religion>Atheist</religion>
+		<size>3000</size>
+		<type>Farmer</type>
+		<literacy>0.7</literacy>
+	</population>
+</populations>
+
+<infrastructure>
+	<port>0</port>
+	<railroad>1</railroad>
+	<road>0</road>
+</infrastructure>

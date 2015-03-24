@@ -1,0 +1,14 @@
+<name>North Hamgyeong</name>
+<owner>North Korea</owner>
+<city>Kyongsong</city>
+<resource>Iron</resource>
+
+<populations>
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>1400000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+</populations>

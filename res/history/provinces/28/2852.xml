@@ -1,0 +1,41 @@
+<name>Ping'an</name>
+<owner>North Korea</owner>
+<city>Pyongyang</city>
+<resource>Coal</resource>
+
+<populations>
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>2300000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+</populations>
+
+<organisations>
+	<organisation>
+		<name>Kim Il-Sung University</name>
+		<type>University</type>
+	</organisation>
+	
+	<organisation>
+		<name>Pyongyang College of Technology</name>
+		<type>University</type>
+	</organisation>
+	
+	<organisation>
+		<name>Pyongyang Medical University</name>
+		<type>University</type>
+	</organisation>
+	
+	<organisation>
+		<name>Central Bank of the North Korea</name>
+		<type>Public Bank</type>
+	</organisation>
+	
+	<organisation>
+		<name>Jikdong Coal Mine</name>
+		<type>Resource Extractor</type>
+	</organisation>
+</organisations>

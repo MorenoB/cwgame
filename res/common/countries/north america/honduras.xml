@@ -1,0 +1,25 @@
+<country>
+	<name>Honduras</name>
+	<flag>Flag of Honduras.png</flag>
+	<information>
+		<official>Republic of Honduras</official>
+		<acronym>HON</acronym>
+		<adjective>Honduran</adjective>
+		<color>
+			<red>125</red>
+			<green>150</green>
+			<blue>117</blue>
+		</color>
+		<currency>HNL</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Juan Manuel Gálvez</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

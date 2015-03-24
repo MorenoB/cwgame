@@ -1,0 +1,25 @@
+<country>
+	<name>Iraq</name>
+	<flag>Flag of Iraq.png</flag>
+	<information>
+		<official>Kingdom of Iraq</official>
+		<acronym>IRQ</acronym>
+		<adjective>Iraqi</adjective>
+		<color>
+			<red>144</red>
+			<green>144</green>
+			<blue>255</blue>
+		</color>
+		<currency>IQD</currency>
+	</information>
+
+	<politics>
+		<government>Authoritarian Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Faisal II</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

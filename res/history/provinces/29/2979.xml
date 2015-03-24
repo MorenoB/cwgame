@@ -1,0 +1,30 @@
+<name>South Sakhalin</name>
+<owner>Soviet Union</owner>
+<resource>Grain</resource>
+<coastal>true</coastal>
+
+<populations>
+	<population>
+		<nationality>Russian</nationality>
+		<religion>Atheist</religion>
+		<size>80000</size>
+		<type>Farmer</type>
+		<literacy>0.95</literacy>
+	</population>
+	
+	<population>
+		<nationality>Japanese</nationality>
+		<religion>Atheist</religion>
+		<size>70000</size>
+		<type>Farmer</type>
+		<literacy>0.75</literacy>
+	</population>
+
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>15000</size>
+		<type>Farmer</type>
+		<literacy>0.6</literacy>
+	</population>	
+</populations>

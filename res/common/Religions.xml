@@ -1,0 +1,18 @@
+<religions>
+	<religion>
+		<name>Atheism</name>
+		<color>
+			<red>50</red>
+			<green>150</green>
+			<blue>50</blue>
+		</color>
+	</religion>
+	
+	<religion>
+		<name>Methodism</name>
+	</religion>
+	
+	<religion>
+		<name>Cheondoism</name>
+	</religion>
+</religions>

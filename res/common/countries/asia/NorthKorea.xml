@@ -1,0 +1,45 @@
+<country>
+	<name>North Korea</name>
+	<flag>Flag of North Korea.png</flag>
+	<information>
+		<official>Democratic People's Republic of Korea</official>
+		<acronym>North Korea</acronym>
+		<adjective>Korean</adjective>
+		<color>
+			<red>237</red>
+			<green>28</green>
+			<blue>39</blue>
+		</color>
+		<currency>KPW</currency>
+	</information>
+
+	<politics>
+		<government>Stalinist Dictatorship</government>
+		<economy>Planned Economy</economy>
+		<leader>Kim Il-Sung</leader>
+		
+		<parties>
+			<party>
+				<name>Worker's Party of Korea</name>
+				<acronym>WPK</acronym>
+				<ideology>Juche</ideology>
+			</party>
+			
+			<party>
+				<name>Democratic Party of Korea</name>
+				<acronym>KSDP</acronym>
+				<ideology>Social Democracy</ideology>
+			</party>
+			
+			<party>
+				<name>Chondoist Chongu Party</name>
+				<acronym>CCP</acronym>
+				<ideology>Religious Nationalism</ideology>
+			</party>
+		</parties>
+	</politics>
+
+	<population>
+		<growth>1.00162</growth>
+	</population>
+</country>

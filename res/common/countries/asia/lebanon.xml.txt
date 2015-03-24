@@ -1,0 +1,25 @@
+<country>
+	<name>Lebanon</name>
+	<flag>Flag of Lebanon.png</flag>
+	<information>
+		<official>Lebanese Republic</official>
+		<acronym>LEB</acronym>
+		<adjective>Lebanese</adjective>
+		<color>
+			<red>141</red>
+			<green>107</green>
+			<blue>165</blue>
+		</color>
+		<currency>LBP</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Bechara Khoury</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

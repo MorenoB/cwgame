@@ -1,0 +1,25 @@
+<country>
+	<name>Tibet</name>
+	<flag>Flag of Tibet.png</flag>
+	<information>
+		<official>Kingdom of Tibet</official>
+		<acronym>TIB</acronym>
+		<adjective>Tibetan</adjective>
+		<color>
+			<red>150</red>
+			<green>200</green>
+			<blue>255</blue>
+		</color>
+		<currency>TBS</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Tenzin Gyatso</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

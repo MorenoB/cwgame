@@ -1,0 +1,25 @@
+<country>
+	<name>Nicaragua</name>
+	<flag>Flag of Nicaragua.png</flag>
+	<information>
+		<official>Republic of Nicaragua</official>
+		<acronym>NIC</acronym>
+		<adjective>Nicaraguan</adjective>
+		<color>
+			<red>59</red>
+			<green>91</green>
+			<blue>121</blue>
+		</color>
+		<currency>NIO</currency>
+	</information>
+
+	<politics>
+		<government>Authoritarian Dictatorship</government>
+		<economy>Market Economy</economy>
+		<leader>Víctor Manuel Román y Reyes</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

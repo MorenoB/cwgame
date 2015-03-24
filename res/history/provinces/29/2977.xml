@@ -1,0 +1,21 @@
+<name>North Sakhalin</name>
+<owner>Soviet Union</owner>
+<resource>Oil</resource>
+
+<populations>
+	<population>
+		<nationality>Russian</nationality>
+		<religion>Atheist</religion>
+		<size>120000</size>
+		<type>Farmer</type>
+		<literacy>0.95</literacy>
+	</population>
+	
+	<population>
+		<nationality>Japanese</nationality>
+		<religion>Atheist</religion>
+		<size>10000</size>
+		<type>Farmer</type>
+		<literacy>0.85</literacy>
+	</population>
+</populations>

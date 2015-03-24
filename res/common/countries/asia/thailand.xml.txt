@@ -1,0 +1,25 @@
+<country>
+	<name>Thailand</name>
+	<flag>Flag of Thailand.png</flag>
+	<information>
+		<official>Kingdom of Thailand</official>
+		<acronym>THA</acronym>
+		<adjective>THAI</adjective>
+		<color>
+			<red>40</red>
+			<green>65</green>
+			<blue>100</blue>
+		</color>
+		<currency>THB</currency>
+	</information>
+
+	<politics>
+		<government>Authoritarian Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Plaek Pibulsonggram</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

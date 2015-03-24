@@ -1,0 +1,13 @@
+<relations>
+	<relation>
+		<country>United States</country>
+		<value>50</value>
+		<monthlyEffect>-1</monthlyEffect>
+	</relation>
+	
+	<relation>
+		<country>East Germany</country>
+		<value>-150</value>
+		<monthlyEffect>1</monthlyEffect>
+	</relation>
+</relations>

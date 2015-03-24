@@ -1,0 +1,14 @@
+<name>West Gyeongsang</name>
+<owner>South Korea</owner>
+<city>Daegu</city>
+<resource>Grain</resource>
+
+<populations>
+	<population>
+		<nationality>Korean</nationality>
+		<religion>Atheist</religion>
+		<size>2850000</size>
+		<type>Farmer</type>
+		<literacy>0.4</literacy>
+	</population>
+</populations>

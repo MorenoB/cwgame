@@ -1,0 +1,25 @@
+<country>
+	<name>Burma</name>
+	<flag>Flag of Burma.png</flag>
+	<information>
+		<official>Union of Burma</official>
+		<acronym>BUR</acronym>
+		<adjective>Burmese</adjective>
+		<color>
+			<red>120</red>
+			<green>140</green>
+			<blue>75</blue>
+		</color>
+		<currency>BMK</currency>
+	</information>
+
+	<politics>
+		<government>Socialist Democracy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Sao Shwe Thaik</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

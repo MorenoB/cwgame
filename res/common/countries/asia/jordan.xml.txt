@@ -1,0 +1,25 @@
+<country>
+	<name>Jordan</name>
+	<flag>Flag of Jordan.png</flag>
+	<information>
+		<official>Hashemite Kingdom of Jordan</official>
+		<acronym>JOR</acronym>
+		<adjective>Jordanian</adjective>
+		<color>
+			<red>200</red>
+			<green>100</green>
+			<blue>100</blue>
+		</color>
+		<currency>JOD</currency>
+	</information>
+
+	<politics>
+		<government>Autocratic Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Abdullah bin al-Hussein</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

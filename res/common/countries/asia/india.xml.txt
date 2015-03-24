@@ -1,0 +1,25 @@
+<country>
+	<name>India</name>
+	<flag>Flag of India.png</flag>
+	<information>
+		<official>Republic of India</official>
+		<acronym>IND</acronym>
+		<adjective>Indian</adjective>
+		<color>
+			<red>255</red>
+			<green>150</green>
+			<blue>50</blue>
+		</color>
+		<currency>INR</currency>
+	</information>
+
+	<politics>
+		<government>Socialist Democracy</government>
+		<economy>Planned Economy</economy>
+		<leader>Jawaharlal Nehru</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

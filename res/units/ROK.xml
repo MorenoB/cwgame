@@ -1,0 +1,18 @@
+<units>
+	<unit>
+		<name>South Korea Infantry 1</name>
+		<tradeable>false</tradeable>
+		<manpower>5000</manpower>
+		<year>1945</year>
+		
+		<resources>
+			<production>
+				<grain>1.0</grain>
+			</production>
+		
+			<maintenance>
+				<grain>0.1</grain>
+			</maintenance>
+		</resources>
+	</unit>
+</units>

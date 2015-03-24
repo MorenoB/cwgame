@@ -1,0 +1,21 @@
+<name>Andong</name>
+<owner>China</owner>
+<resource>Grain</resource>
+
+<populations>
+	<population>
+		<nationality>Han</nationality>
+		<religion>Atheist</religion>
+		<size>5000000</size>
+		<type>Farmer</type>
+		<literacy>0.2</literacy>
+	</population>
+	
+	<population>
+		<nationality>Manchu</nationality>
+		<religion>Atheist</religion>
+		<size>600000</size>
+		<type>Farmer</type>
+		<literacy>0.2</literacy>
+	</population>
+</populations>

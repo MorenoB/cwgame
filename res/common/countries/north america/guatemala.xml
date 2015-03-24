@@ -1,0 +1,25 @@
+<country>
+	<name>Guatemala</name>
+	<flag>Flag of Guatemala.png</flag>
+	<information>
+		<official>Republic of Guatemala</official>
+		<acronym>GUA</acronym>
+		<adjective>Guatemalan</adjective>
+		<color>
+			<red>172</red>
+			<green>212</green>
+			<blue>251</blue>
+		</color>
+		<currency>GTQ</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Juan José Arévalo</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

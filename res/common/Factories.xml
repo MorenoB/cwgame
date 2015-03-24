@@ -1,0 +1,42 @@
+<factories>
+	<factory>
+		<name>Steel Factory</name>
+		
+		<inputs>
+			<input>
+				<name>Coal</name>
+				<amount>1</amount>
+			</input>
+			
+			<input>
+				<name>Iron</name>
+				<amount>1</amount>
+			</input>
+		</inputs>
+		
+		<outputs>
+			<output>
+				<name>Steel</name>
+				<amount>1</amount>
+			</output>
+		</outputs>
+	</factory>
+	
+	<factory>
+		<name>Lumber Mill</name>
+		
+		<inputs>
+			<input>
+				<name>Timber</name>
+				<amount>1</amount>
+			</input>
+		</inputs>
+		
+		<outputs>
+			<output>
+				<name>Lumber</name>
+				<amount>2</amount>
+			</output>
+		</outputs>
+	</factory>
+</factories>

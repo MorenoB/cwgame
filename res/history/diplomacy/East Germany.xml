@@ -1,0 +1,13 @@
+<relations>
+	<relation>
+		<country>Soviet Union</country>
+		<value>150</value>
+		<monthlyEffect>-1</monthlyEffect>
+	</relation>
+
+	<relation>
+		<country>West Germany</country>
+		<value>-150</value>
+		<monthlyEffect>1</monthlyEffect>
+	</relation>
+</relations>

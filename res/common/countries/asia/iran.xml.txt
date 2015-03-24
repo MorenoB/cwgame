@@ -1,0 +1,25 @@
+<country>
+	<name>Iran</name>
+	<flag>Flag of Iran.png</flag>
+	<information>
+		<official>Kingdom of Iran</official>
+		<acronym>IRN</acronym>
+		<adjective>Iranian</adjective>
+		<color>
+			<red>255</red>
+			<green>200</green>
+			<blue>0</blue>
+		</color>
+		<currency>IRR</currency>
+	</information>
+
+	<politics>
+		<government>Autocratic Monarchy</government>
+		<economy>Dirigisme</economy>
+		<leader>Mohammad Reza Pahlavi</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

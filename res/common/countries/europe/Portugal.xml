@@ -1,0 +1,25 @@
+<country>
+	<name>Portugal</name>
+	<flag>Flag of Portugal.png</flag>
+	<information>
+		<official>Portuguese Republic</official>
+		<acronym>POR</acronym>
+		<adjective>Portuguese</adjective>
+		<color>
+			<red>57</red>
+			<green>160</green>
+			<blue>101</blue>
+		</color>
+		<currency>PTE</currency>
+	</information>
+
+	<politics>
+		<government>Parliamentary single-party republic</government>
+		<economy>Market Economy</economy>
+		<leader>António de Oliveira Salazar</leader>
+	</politics>
+
+	<population>
+		<growth>1.0008</growth>
+	</population>
+</country>

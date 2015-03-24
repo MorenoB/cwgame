@@ -1,0 +1,25 @@
+<country>
+	<name>Australia</name>
+	<flag>Flag of Australia.png</flag>
+	<information>
+		<official>Commonwealth of Australia</official>
+		<acronym>AUS</acronym>
+		<adjective>Australian</adjective>
+		<color>
+			<red>36</red>
+			<green>119</green>
+			<blue>131</blue>
+		</color>
+		<currency>AUP</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Benedict Chifley</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

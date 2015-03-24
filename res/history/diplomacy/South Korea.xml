@@ -1,0 +1,13 @@
+<relations>
+	<relation>
+		<country>North Korea</country>
+		<value>-200</value>
+		<monthlyEffect>1</monthlyEffect>
+	</relation>
+	
+	<relation>
+		<country>United States</country>
+		<value>100</value>
+		<monthlyEffect>-1</monthlyEffect>
+	</relation>
+</relations>

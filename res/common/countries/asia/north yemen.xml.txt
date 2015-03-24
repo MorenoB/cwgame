@@ -1,0 +1,25 @@
+<country>
+	<name>North Yemen</name>
+	<flag>Flag of North Yemen.png</flag>
+	<information>
+		<official>Mutawakkilite Kingdom of Yemen</official>
+		<acronym>NYM</acronym>
+		<adjective>North Yemeni</adjective>
+		<color>
+			<red>106</red>
+			<green>53</green>
+			<blue>0</blue>
+		</color>
+		<currency>NYR</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Ahmad bin Yahya</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

@@ -1,0 +1,25 @@
+<country>
+	<name>West Germany</name>
+	<flag>Flag of West Germany.png</flag>
+	<information>
+		<official>Federal Republic of Germany</official>
+		<acronym>FRG</acronym>
+		<adjective>West German</adjective>
+		<color>
+			<red>171</red>
+			<green>146</green>
+			<blue>115</blue>
+		</color>
+		<currency>DEM</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Konrad Adenauer</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

@@ -1,0 +1,12 @@
+<simulation>
+	<name>Unemployment</name>
+	
+	<representation>
+		<type>REGULAR_PERCENTAGE</type>
+	</representation>
+	
+	<generation>
+		<class>politics.simulations.generators.UnemploymentValueGenerator</class>
+		<method>generate</method>
+	</generation>
+</simulation>

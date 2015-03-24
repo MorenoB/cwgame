@@ -1,0 +1,25 @@
+<country>
+	<name>The Philippines</name>
+	<flag>Flag of the Philippines.png</flag>
+	<information>
+		<official>Republic of the Philippines</official>
+		<acronym>PHI</acronym>
+		<adjective>Filipino</adjective>
+		<color>
+			<red>100</red>
+			<green>50</green>
+			<blue>65</blue>
+		</color>
+		<currency>PHP</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Elpidio Quirino</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

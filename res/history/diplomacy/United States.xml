@@ -1,0 +1,13 @@
+<relations>
+	<relation>
+		<country>South Korea</country>
+		<value>100</value>
+		<monthlyEffect>-1</monthlyEffect>
+	</relation>
+	
+	<relation>
+		<country>Soviet Union</country>
+		<value>-125</value>
+		<monthlyEffect>1</monthlyEffect>
+	</relation>
+</relations>

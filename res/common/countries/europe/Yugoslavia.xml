@@ -1,0 +1,25 @@
+<country>
+        <name>Yugoslavia</name>
+        <flag>Flag of the Yugoslavia.png</flag>
+        <information>
+                <official>Federal People's Republic of Yugoslavia</official>
+                <acronym>FPRY</acronym>
+                <adjective>Yugoslav</adjective>
+                <color>
+                        <red>60</red>
+                        <green>59</green>
+                        <blue>110</blue>
+                </color>
+                <currency>YUD</currency>
+        </information>
+ 
+        <politics>
+                <government>Federal Republic</government>
+                <economy>Socialist Self-Management </economy>
+                <leader>Josip Broz Tito</leader>
+        </politics>
+       
+        <population>
+                <growth>1.0008</growth>
+        </population>
+</country>

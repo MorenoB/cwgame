@@ -1,0 +1,25 @@
+<country>
+	<name>China</name>
+	<flag>Flag of China.png</flag>
+	<information>
+		<official>People's Republic of China</official>
+		<acronym>PRC</acronym>
+		<adjective>Chinese</adjective>
+		<color>
+			<red>222</red>
+			<green>41</green>
+			<blue>16</blue>
+		</color>
+		<currency>RMB</currency>
+	</information>
+
+	<politics>
+		<government>Maoist One-Party State</government>
+		<economy>Planned Economy</economy>
+		<leader>Mao Zedong</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

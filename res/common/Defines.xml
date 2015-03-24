@@ -1,0 +1,13 @@
+<defines>
+	<initialCountry>United States</initialCountry>
+	<clockThreshold>0</clockThreshold>
+	<screenshotDirectory>info/screenshots/</screenshotDirectory>
+	<musicOn>false</musicOn>
+	<productionModifier>1</productionModifier>
+	
+	<date>
+		<year>1949</year>
+		<month>11</month>
+		<day>1</day>
+	</date>
+</defines>

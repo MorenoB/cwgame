@@ -1,0 +1,25 @@
+<country>
+	<name>Indonesia</name>
+	<flag>Flag of Indonesia.png</flag>
+	<information>
+		<official>United States of Indonesia</official>
+		<acronym>INA</acronym>
+		<adjective>Indonesian</adjective>
+		<color>
+			<red>55</red>
+			<green>0</green>
+			<blue>155</blue>
+		</color>
+		<currency>IDR</currency>
+	</information>
+
+	<politics>
+		<government>Socialist Democracy</government>
+		<economy>Planned Economy</economy>
+		<leader>Sukarno</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

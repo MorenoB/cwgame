@@ -1,0 +1,19 @@
+<country>
+	<name>Finland</name>
+	<flag>Flag of Finland.png</flag>
+	<information>
+		<official>Republic of Finland</official>
+		<acronym>FIN</acronym>
+		<adjective>Finnish</adjective>
+		<color>
+			<red>120</red>
+			<green>120</green>
+			<blue>120</blue>
+		</color>
+		<currency>FIM</currency>
+	</information>
+	
+	<population>
+		<growth>1.0007</growth>
+	</population>
+</country>

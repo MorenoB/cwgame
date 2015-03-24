@@ -1,0 +1,17 @@
+<economies>
+	<economy>
+		<name>Socialist Market Economy</name>
+	</economy>
+	
+	<economy>
+		<name>New Economic Policy</name>
+	</economy>
+	
+	<economy>
+		<name>Command Economy</name>
+	</economy>
+	
+	<economy>
+		<name>Mixed Economy</name>
+	</economy>
+</economies>

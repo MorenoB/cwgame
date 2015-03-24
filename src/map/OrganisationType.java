@@ -1,0 +1,9 @@
+package map;
+
+public enum OrganisationType {
+	PRIVATE_BANK,
+	PUBLIC_BANK,
+	RESOURCE_DISTRIBUTOR,
+	RESOURCE_EXTRACTOR,
+	UNIVERSITY;
+}

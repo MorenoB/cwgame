@@ -1,0 +1,46 @@
+<nationalities>
+	<group>
+		<name>Germanic</name>
+		
+		<nationality>
+			<name>Swedish</name>
+			<unit>Swede</unit>
+		</nationality>
+	</group>
+
+	<group>
+		<name>East Slavic</name>
+		
+		<nationality>
+			<name>Russian</name>
+			<unit>Russian</unit>
+		</nationality>
+		
+		<nationality>
+			<name>Ukrainain</name>
+		</nationality>
+		
+		<nationality>
+			<name>Belarusian</name>
+		</nationality>
+	</group>
+	
+	<group>
+		<name>East Asian</name>
+		
+		<nationality>
+			<name>Chinese</name>
+			<unit>Chinese</unit>
+		</nationality>
+		
+		<nationality>
+			<name>Japanese</name>
+			<unit>Japanese</unit>
+		</nationality>
+		
+		<nationality>
+			<name>Korean</name>
+			<unit>Korean</unit>
+		</nationality>
+	</group>
+</nationalities>

@@ -1,0 +1,25 @@
+<country>
+	<name>Soviet Union</name>
+	<flag>Flag of the Soviet Union.png</flag>
+	<information>
+		<official>Union of Soviet Socialist Republics</official>
+		<acronym>USSR</acronym>
+		<adjective>Soviet</adjective>
+		<color>
+			<red>192</red>
+			<green>0</green>
+			<blue>0</blue>
+		</color>
+		<currency>SUR</currency>
+	</information>
+
+	<politics>
+		<government>Stalinist Dictatorship</government>
+		<economy>Planned Economy</economy>
+		<leader>Joseph Stalin</leader>
+	</politics>
+
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

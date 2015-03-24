@@ -1,0 +1,86 @@
+<populationType>
+	<name>Farmer</name>
+	<plural>Farmers</plural>
+	<unemployment>false</unemployment>
+	<conversions>
+		<conversion>
+			<name>Worker</name>
+			<factors>
+				<base>0.0</base>
+
+				<unemployed>0.0</unemployed>
+				<province>
+					<factories>
+						<has>0.3</has>
+						<hasNone>-0.2</hasNone>
+					</factories>
+
+					<resources>
+						<has>0.3</has>
+						<hasNone>-0.2</hasNone>
+					</resources>
+				</province>
+			</factors>
+		</conversion>
+
+		<conversion>
+			<name>Soldier</name>
+			<factors>
+				<base>0.0</base>
+
+				<unemployed>0.0</unemployed>
+				<province>
+					<factories>
+						<has>0.0</has>
+						<hasNone>0.1</hasNone>
+					</factories>
+					
+					<resources>
+						<has>0.0</has>
+						<hasNone>0.0</hasNone>
+					</resources>
+				</province>
+			</factors>
+		</conversion>
+	</conversions>
+
+	<actions>
+		<factories>
+			<build>false</build>
+			<expand>false</expand>
+			<workIn>false</workIn>
+		</factories>
+
+		<resourceOps>
+			<workIn>false</workIn>
+		</resourceOps>
+	</actions>
+
+	<needs>
+		<life>
+			<resource>
+				<name>Grain</name>
+				<amount>0.01</amount>
+			</resource>
+		</life>
+		
+		<everyday>
+			<resource>
+				<name>Coal</name>
+				<amount>0.002</amount>
+			</resource>
+		</everyday>
+		
+		<luxury>
+			
+		</luxury>
+	</needs>
+	
+	<production>
+		<type>ALL</type>
+		<resource>
+			<name>Grain</name>
+			<base>0.0105</base>
+		</resource>
+	</production>
+</populationType>

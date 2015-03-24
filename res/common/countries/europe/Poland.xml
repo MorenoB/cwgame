@@ -1,0 +1,25 @@
+<country>
+	<name>Poland</name>
+	<flag>Flag of Poland.png</flag>
+	<information>
+		<official>Polish People's Republic</official>
+		<acronym>POL</acronym>
+		<adjective>Polish</adjective>
+		<color>
+			<red>255</red>
+			<green>111</green>
+			<blue>135</blue>
+		</color>
+		<currency>PLN</currency>
+	</information>
+
+	<politics>
+		<government>Single-Party, People's Democracy</government>
+		<economy>Centrally Planned Economy</economy>
+		<leader>Bolesław Bierut</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

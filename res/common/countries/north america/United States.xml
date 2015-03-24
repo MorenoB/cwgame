@@ -1,0 +1,25 @@
+<country>
+	<name>United States</name>
+	<flag>Flag of the United States.png</flag>
+	<information>
+		<official>United States of America</official>
+		<acronym>USA</acronym>
+		<adjective>US</adjective>
+		<color>
+			<red>60</red>
+			<green>59</green>
+			<blue>110</blue>
+		</color>
+		<currency>USD</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Harry S. Truman</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0008</growth>
+	</population>
+</country>

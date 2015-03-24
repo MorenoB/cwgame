@@ -1,0 +1,25 @@
+<country>
+	<name>Japan</name>
+	<flag>Flag of Japan.png</flag>
+	<information>
+		<official>Japan</official>
+		<acronym>JPN</acronym>
+		<adjective>Japanese</adjective>
+		<color>
+			<red>255</red>
+			<green>255</green>
+			<blue>0</blue>
+		</color>
+		<currency>JPY</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Dirigisme</economy>
+		<leader>Yoshida Shigeru</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

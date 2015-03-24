@@ -1,0 +1,25 @@
+<country>
+	<name>Costa Rica</name>
+	<flag>Flag of Costa Rica.png</flag>
+	<information>
+		<official>German Democratic Republic</official>
+		<acronym>CSR</acronym>
+		<adjective>Costa Rican</adjective>
+		<color>
+			<red>252</red>
+			<green>221</green>
+			<blue>9</blue>
+		</color>
+		<currency>CRC</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>José Figueres Ferrer</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0001</growth>
+	</population>
+</country>

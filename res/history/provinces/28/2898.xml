@@ -1,0 +1,14 @@
+<name>Furdan</name>
+<owner>Soviet Union</owner>
+<city>Vladivostok</city>
+<resource>Fish</resource>
+
+<populations>
+	<population>
+		<nationality>Russian</nationality>
+		<religion>Atheist</religion>
+		<size>800000</size>
+		<type>Farmer</type>
+		<literacy>0.99</literacy>
+	</population>
+</populations>

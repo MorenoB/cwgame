@@ -1,0 +1,25 @@
+<country>
+	<name>Afghanistan</name>
+	<flag>Flag of Afghanistan.png</flag>
+	<information>
+		<official>Kingdom of Afghanistan</official>
+		<acronym>AFG</acronym>
+		<adjective>Afghan</adjective>
+		<color>
+			<red>120</red>
+			<green>120</green>
+			<blue>150</blue>
+		</color>
+		<currency>AFN</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Mohammed Zahir Shah</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

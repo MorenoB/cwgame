@@ -1,0 +1,25 @@
+<country>
+	<name>Canada</name>
+	<flag>Flag of Canada.png</flag>
+	<information>
+		<official>Canada</official>
+		<acronym>CAN</acronym>
+		<adjective>Canadian</adjective>
+		<color>
+			<red>216</red>
+			<green>125</green>
+			<blue>82</blue>
+		</color>
+		<currency>CAD</currency>
+	</information>
+
+	<politics>
+		<government>Parliamentary Constitutional Monarchy</government>
+		<economy>Market Economy</economy>
+		<leader>Louis St. Laurent</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

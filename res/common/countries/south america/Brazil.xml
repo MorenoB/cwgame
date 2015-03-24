@@ -1,0 +1,25 @@
+<country>
+	<name>Brazil</name>
+	<flag>Flag of Brazil.png</flag>
+	<information>
+		<official>United States of Brazil</official>
+		<acronym>USB</acronym>
+		<adjective>Brazilian</adjective>
+		<color>
+			<red>77</red>
+			<green>173</green>
+			<blue>64</blue>
+		</color>
+		<currency>BRL</currency>
+	</information>
+
+	<politics>
+		<government>Multi-Party Republic</government>
+		<economy>Market Economy</economy>
+		<leader>Eurico Gaspar Dutra</leader>
+	</politics>
+
+	<population>
+		<growth>1.0008</growth>
+	</population>
+</country>

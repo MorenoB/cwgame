@@ -1,0 +1,25 @@
+<country>
+	<name>Nepal</name>
+	<flag>Flag of Nepal.png</flag>
+	<information>
+		<official>Kingdom of Nepal</official>
+		<acronym>NPL</acronym>
+		<adjective>Nepalese</adjective>
+		<color>
+			<red>150</red>
+			<green>200</green>
+			<blue>125</blue>
+		</color>
+		<currency>NPR</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Planned Economy</economy>
+		<leader>Tribhuvan Bir Bikram Shah</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

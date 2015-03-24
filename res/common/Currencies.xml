@@ -1,0 +1,51 @@
+<currencies>
+	<currency>
+		<names>
+			<colloquial>Dollar</colloquial>
+			<official>United States dollar</official>
+			<acronym>USD</acronym>
+		</names>
+
+		<issuer>Bureau of Engraving and Printing</issuer>
+	</currency>
+
+	<currency>
+		<names>
+			<colloquial>Ruble</colloquial>
+			<official>Soviet ruble</official>
+			<acronym>SUR</acronym>
+		</names>
+
+		<issuer>Goznak</issuer>
+	</currency>
+
+	<currency>
+		<names>
+			<colloquial>Won</colloquial>
+			<official>North Korea won</official>
+			<acronym>KPW</acronym>
+		</names>
+
+		<issuer>Central Bank of the DPRK</issuer>
+	</currency>
+
+	<currency>
+		<names>
+			<colloquial>Won</colloquial>
+			<official>South Korea won</official>
+			<acronym>KRW</acronym>
+		</names>
+
+		<issuer>KOMSCO</issuer>
+	</currency>
+	
+	<currency>
+		<names>
+			<colloquial>Markka</colloquial>
+			<official>Finnish markka</official>
+			<acronym>FIM</acronym>
+		</names>
+		
+		<issuer>Bank of Finland</issuer>
+	</currency>
+</currencies>

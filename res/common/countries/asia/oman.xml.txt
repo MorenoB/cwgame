@@ -1,0 +1,25 @@
+<country>
+	<name>Oman</name>
+	<flag>Flag of Oman.png</flag>
+	<information>
+		<official>Sultanate of Oman</official>
+		<acronym>OMN</acronym>
+		<adjective>Japanese</adjective>
+		<color>
+			<red>210</red>
+			<green>124</green>
+			<blue>186</blue>
+		</color>
+		<currency>OMR</currency>
+	</information>
+
+	<politics>
+		<government>Absolute Monarchy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Said bin Taimur</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

@@ -1,0 +1,25 @@
+<country>
+	<name>Cuba</name>
+	<flag>Flag of Cuba.png</flag>
+	<information>
+		<official>Republic of Cuba</official>
+		<acronym>CUB</acronym>
+		<adjective>Cuban</adjective>
+		<color>
+			<red>181</red>
+			<green>51</green>
+			<blue>137</blue>
+		</color>
+		<currency>CUP</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Carlos Prío Socarrás</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

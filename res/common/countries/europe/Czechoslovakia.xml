@@ -1,0 +1,25 @@
+<country>
+	<name>Czechoslovakia</name>
+	<flag>Flag of Czechoslovakia.png</flag>
+	<information>
+		<official>Czechoslovak Republic</official>
+		<acronym>CZR</acronym>
+		<adjective>Czech</adjective>
+		<color>
+			<red>86</red>
+			<green>98</green>
+			<blue>241</blue>
+		</color>
+		<currency>CZK</currency>
+	</information>
+
+	<politics>
+		<government>Marxist-Leninist People's democracy</government>
+		<economy>Central Planned Economy</economy>
+		<leader>Klement Gottwald</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

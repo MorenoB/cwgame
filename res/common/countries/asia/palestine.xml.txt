@@ -1,0 +1,25 @@
+<country>
+	<name>Palestine</name>
+	<flag>Flag of Palestine.png</flag>
+	<information>
+		<official>All-Palestine Government</official>
+		<acronym>PAL</acronym>
+		<adjective>Palestinian</adjective>
+		<color>
+			<red>128</red>
+			<green>255</green>
+			<blue>128</blue>
+		</color>
+		<currency>EGP</currency>
+	</information>
+
+	<politics>
+		<government>Autocratic Republic</government>
+		<economy>Planned Economy</economy>
+		<leader>Hajj Amin al-Husseini</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

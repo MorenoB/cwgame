@@ -1,0 +1,25 @@
+<country>
+	<name>Israel</name>
+	<flag>Flag of Israel.png</flag>
+	<information>
+		<official>State of Israel</official>
+		<acronym>ISR</acronym>
+		<adjective>Israeli</adjective>
+		<color>
+			<red>0</red>
+			<green>185</green>
+			<blue>185</blue>
+		</color>
+		<currency>ILS</currency>
+	</information>
+
+	<politics>
+		<government>Socialist Democracy</government>
+		<economy>Dirigisme</economy>
+		<leader>David Ben-Gurion</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

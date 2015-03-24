@@ -1,0 +1,25 @@
+<country>
+	<name>East Germany</name>
+	<flag>Flag of East Germany.png</flag>
+	<information>
+		<official>German Democratic Republic</official>
+		<acronym>GDR</acronym>
+		<adjective>East German</adjective>
+		<color>
+			<red>94</red>
+			<green>123</green>
+			<blue>142</blue>
+		</color>
+		<currency>DDM</currency>
+	</information>
+
+	<politics>
+		<government>Marxist–Leninist Single-Party Socialist State</government>
+		<economy>Planned Economy</economy>
+		<leader>Wilhelm Pieck</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0002</growth>
+	</population>
+</country>

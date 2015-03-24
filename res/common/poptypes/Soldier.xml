@@ -1,0 +1,59 @@
+<populationType>
+	<name>Soldier</name>
+	<plural>Soldiers</plural>
+	<unemployment>true</unemployment>
+	<conversions>
+		<conversion>
+			<name>Farmer</name>
+			<factors>
+				<base>0.1</base>
+				<unemployed>0.5</unemployed>
+
+				<province>
+					<factories>
+						<has>0.0</has>
+						<hasNone>0.0</hasNone>
+					</factories>
+
+					<resources>
+						<has>0.0</has>
+						<hasNone>0.0</hasNone>
+					</resources>
+				</province>
+			</factors>
+		</conversion>
+	</conversions>
+
+	<actions>
+		<factories>
+			<build>false</build>
+			<expand>false</expand>
+			<workIn>false</workIn>
+		</factories>
+
+		<resourceOps>
+			<workIn>false</workIn>
+		</resourceOps>
+	</actions>
+
+	<needs>
+		<life>
+			<resource>
+				<name>Grain</name>
+				<amount>1.25f</amount>
+			</resource>
+		</life>
+
+		<everyday>
+
+		</everyday>
+
+		<luxury>
+
+		</luxury>
+	</needs>
+
+	<production>
+		<type>NONE</type>
+	</production>
+</populationType>

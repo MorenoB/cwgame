@@ -1,0 +1,25 @@
+<country>
+	<name>Mongolia</name>
+	<flag>Flag of Mongolia.png</flag>
+	<information>
+		<official>Mongolian People's Republic</official>
+		<acronym>MNG</acronym>
+		<adjective>Mongolian</adjective>
+		<color>
+			<red>255</red>
+			<green>225</green>
+			<blue>150</blue>
+		</color>
+		<currency>MNT</currency>
+	</information>
+
+	<politics>
+		<government>Marxist-Leninist One-Party State</government>
+		<economy>Planned Economy</economy>
+		<leader>Khorloogiin Choibalsan</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

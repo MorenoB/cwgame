@@ -1,0 +1,36 @@
+<resources>
+	<resource>
+		<name>Coal</name>
+	</resource>
+	
+	<resource>
+		<name>Fish</name>
+	</resource>
+	
+	<resource>
+		<name>Grain</name>
+		<links>
+			<productivity>Grain Productivity</productivity>
+		</links>
+	</resource>
+	
+	<resource>
+		<name>Iron</name>
+	</resource>
+	
+	<resource>
+		<name>Lumber</name>
+	</resource>
+	
+	<resource>
+		<name>Oil</name>
+	</resource>
+	
+	<resource>
+		<name>Steel</name>
+	</resource>
+	
+	<resource>
+		<name>Timber</name>
+	</resource>
+</resources>

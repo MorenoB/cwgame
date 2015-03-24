@@ -1,0 +1,25 @@
+<country>
+	<name>Haiti</name>
+	<flag>Flag of Haiti.png</flag>
+	<information>
+		<official>Republic of Haiti</official>
+		<acronym>HAI</acronym>
+		<adjective>Haitian</adjective>
+		<color>
+			<red>40</red>
+			<green>118</green>
+			<blue>225</blue>
+		</color>
+		<currency>HTG</currency>
+	</information>
+
+	<politics>
+		<government>Capitalist Democracy</government>
+		<economy>Market Economy</economy>
+		<leader>Dumarsais Estimé</leader>
+	</politics>
+	
+	<population>
+		<growth>1.0003</growth>
+	</population>
+</country>

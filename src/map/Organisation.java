@@ -15,7 +15,7 @@ public class Organisation extends MarketActor {
 		type = OrganisationType.valueOf(typeName);
 	}
 	
-	public void generateResources(ProvinceData data) {
+	public void generateResources(LandProvinceData data) {
 		if(getType() == OrganisationType.RESOURCE_EXTRACTOR) {
 			long workerPops = 0;
 			

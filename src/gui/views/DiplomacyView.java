@@ -70,7 +70,7 @@ public class DiplomacyView extends AbstractView implements Component {
 		if(prov == null)
 			return;
 		
-		Country owner = prov.getOwner();
+		Country owner = prov.getData().getOwner();
 		if(owner != null) {
 			color = owner.getData().getColor();
 		} else {
@@ -81,6 +81,6 @@ public class DiplomacyView extends AbstractView implements Component {
 	@Override
 	public void setCurrentProvince(Province value) {
 		super.setCurrentProvince(value);
-		country = value.getOwner();
+		country = value.getData().getOwner();
 	}
 }

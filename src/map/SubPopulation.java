@@ -31,7 +31,7 @@ public class SubPopulation extends MarketActor {
 	
 	private void addProducedResources(Province homeProv) {
 		ResourceTable production = type.getProduction();
-		homeProv.getOwner().getPoliticalContext();
+		homeProv.getData().getOwner().getPoliticalContext();
 		for(int i = 0; i < production.getResourceAmounts().length; i++) {
 			ResourceTable.getResource(i).getProductivitySimulation();
 			double value = production.get(i);

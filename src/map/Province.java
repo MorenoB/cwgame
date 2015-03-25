@@ -18,19 +18,25 @@ import docs.SGMLReaderUtil;
 import economy.Currency;
 import economy.Market;
 
+/**
+ * The base class for a province.
+ * 
+ * @author nastyasalways
+ *
+ */
 public class Province {
 	private static int idGen = 0;
 	private static int maxPoints = 0;
 	private final int climateType;
 	private final int color;
 	private float currentRed, currentGreen, currentBlue;
-	private final ProvinceData data;
+	private final LandProvinceData data;
 	private SGMLObject history;
 	private final File historyFile;
 	private final int id;
 	private Image image;
 	private int minX, minY, maxX, maxY;
-	private Country owner;
+	
 	private int terrainType;
 	private final int winterType;
 	private final TIntList xPoints = new TIntArrayList();
@@ -49,13 +55,15 @@ public class Province {
 		
 		if(historyFile.exists()) {
 			history = SGMLReaderUtil.readFromPath(historyFile);
-			data = new ProvinceData(this, history);
-			owner = Countries.getCountry(history.getField("owner"));
-			owner.getData().getProvinces().add(this);
+			data = new LandProvinceData(this, history);
 		} else {
-			data = new ProvinceData(this);
-			history = null;
-			owner = null;
+			if(isWater()) {
+				data = null;
+				history = null;
+			} else {
+				data = new LandProvinceData(this);
+				history = null;
+			}
 		}
 	}
 	
@@ -68,12 +76,15 @@ public class Province {
 	}
 	
 	public void createMarket() {
-		Country country = getOwner();
-		if(country != null) {
-			CountryData data = country.getData();
-			Currency currency = data.getCurrency();
-			Market market = new Market(currency);
-			getData().setMarket(market);
+		LandProvinceData data = getData();
+		if(data != null) {
+			Country country = data.getOwner();
+			if(country != null) {
+				CountryData countryData = country.getData();
+				Currency currency = countryData.getCurrency();
+				Market market = new Market(currency);
+				getData().setMarket(market);
+			}
 		}
 	}
 	
@@ -98,7 +109,7 @@ public class Province {
 		return color;
 	}
 	
-	public ProvinceData getData() {
+	public LandProvinceData getData() {
 		return data;
 	}
 	
@@ -124,10 +135,6 @@ public class Province {
 	
 	public int getMinY() {
 		return minY;
-	}
-	
-	public Country getOwner() {
-		return owner;
 	}
 	
 	public int getTerrainType() {

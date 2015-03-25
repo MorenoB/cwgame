@@ -37,6 +37,12 @@ public class Country extends MarketActor implements Comparable<Country> {
 		if(data.getPopulation() == 0) {
 			long popCalc = 0;
 			for(Province prov: data.getProvinces()) {
+				if(prov == null) {
+					System.out.println("wtf");
+				}
+				if(prov.getData() == null) {
+					System.out.println("huh");
+				}
 				popCalc += prov.getData().getPopulationSize();
 			}
 			data.setPopulation(popCalc);
@@ -72,7 +78,9 @@ public class Country extends MarketActor implements Comparable<Country> {
 		long population = 0;
 		
 		for(Province prov: data.getProvinces()) {
-			population += prov.getData().getPopulationSize();
+			if(!prov.isWater()) {
+				population += prov.getData().getPopulationSize();
+			}
 		}
 		
 		data.setPopulation(population);

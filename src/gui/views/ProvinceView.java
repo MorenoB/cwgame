@@ -88,7 +88,7 @@ public class ProvinceView extends AbstractView implements Component {
 		if(prov == null)
 			return;
 		
-		prov.getOwner();
+		prov.getData().getOwner();
 		if(renderColor != null) {
 			graphics.setColor(renderColor);
 			graphics.fillRect(x, getY(), WIDTH, HEIGHT);
@@ -101,6 +101,7 @@ public class ProvinceView extends AbstractView implements Component {
 		
 		String resourceName = prov.getData().getResource().getName();
 		graphics.drawString("Resource: " + resourceName, x + (TEXTX * 2), y + (TEXTY * 3));
+		graphics.drawString("Terrain: " + prov.getTerrainType(), x + (TEXTX * 2), y + (TEXTY * 4));
 		
 		if(prov.getData().getPopulation() != null) {
 			int counter = 5;

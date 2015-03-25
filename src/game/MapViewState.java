@@ -6,6 +6,7 @@ import gui.ButtonBuilder;
 import gui.Container;
 import gui.views.AbstractView;
 import gui.views.CountryView;
+import map.LandProvinceData;
 import map.Province;
 
 import org.newdawn.slick.Color;
@@ -127,8 +128,9 @@ public class MapViewState extends BasicGameState {
 		
 		if(politicalMode) {
 			if(input.isMouseButtonDown(0)) {
-				if(mousedOverProvince.getOwner() != null) {
-					selectedCountry = mousedOverProvince.getOwner();
+				LandProvinceData data = mousedOverProvince.getData();
+				if((data != null) && (data.getOwner() != null)) {
+					selectedCountry = mousedOverProvince.getData().getOwner();
 					countryView.setCurrentCountry(selectedCountry);
 				}
 			}

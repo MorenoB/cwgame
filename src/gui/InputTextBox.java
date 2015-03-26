@@ -14,7 +14,7 @@ public class InputTextBox extends AbstractComponent {
 	
 	@Override
 	protected void internalRender(GameContainer gc, StateBasedGame sbg, Graphics graphics) {
-		graphics.setColor(AbstractComponent.renderColor.darker());
+		graphics.setColor(AbstractComponent.getRenderColor().darker());
 		graphics.fillRect(x, y, width, height);
 		graphics.setColor(Color.white);
 		graphics.drawString(text.toString(), x, y);

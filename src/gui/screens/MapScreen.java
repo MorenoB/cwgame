@@ -91,7 +91,7 @@ public class MapScreen implements Screen {
 			currentHoveredProvince.renderHighlight(camera.x, camera.y, zoom);
 		}
 		
-		graphics.setColor(AbstractComponent.renderColor);
+		graphics.setColor(AbstractComponent.getRenderColor());
 		graphics.fillRect(0, 0, gc.getWidth(), 32);
 		graphics.setColor(Button.coverColor);
 		graphics.fillRect(0, 0, gc.getWidth(), 32);
@@ -128,6 +128,7 @@ public class MapScreen implements Screen {
 					} else {
 						provinceView.setVisible(true);
 						diplomacyView.setVisible(true);
+						AbstractComponent.setRenderColor(prov.getData().getOwner().getData().getColor());
 					}
 				}
 			}

@@ -59,7 +59,7 @@ public class Button extends AbstractComponent {
 			image.drawEmbedded(x, y, width, height);
 			image.endUse();
 		} else {
-			graphics.setColor(renderColor);
+			graphics.setColor(getRenderColor());
 			graphics.fillRect(x, y, width, height);
 			if(renderCover) {
 				graphics.setColor(coverColor);

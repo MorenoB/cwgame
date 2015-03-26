@@ -25,7 +25,7 @@ public class ColorRectangle extends AbstractComponent {
 	@Override
 	public void internalRender(GameContainer container, StateBasedGame game, Graphics graphics) {
 		if(color == null) {
-			graphics.setColor(AbstractComponent.renderColor);
+			graphics.setColor(AbstractComponent.getRenderColor());
 		} else {
 			graphics.setColor(color);
 		}

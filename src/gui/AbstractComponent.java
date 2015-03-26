@@ -8,7 +8,7 @@ import org.newdawn.slick.state.StateBasedGame;
 public abstract class AbstractComponent implements Component {
 	private static final String INVALID_PRIORITY_EXCEPTION = "Invalid priority value. Override compareTo for custom behavior.";
 	
-	public static Color renderColor;
+	private static Color renderColor;
 	protected final Color hoverColor = new Color(255, 255, 255, 127);
 	private int priority = 0;
 	protected boolean visible = true, enabled = true;
@@ -42,10 +42,6 @@ public abstract class AbstractComponent implements Component {
 		return priority;
 	}
 	
-	public Color getRenderColor() {
-		return renderColor;
-	}
-	
 	public float getWidth() {
 		return width;
 	}
@@ -60,9 +56,9 @@ public abstract class AbstractComponent implements Component {
 	
 	//@formatter:off
 	protected abstract void internalRender(GameContainer gc, StateBasedGame sbg, Graphics graphics);
+	
 	protected abstract void internalUpdate(GameContainer gc, StateBasedGame sbg, int delta);
 	//@formatter:on
-	
 	public boolean isEnabled() {
 		return enabled;
 	}
@@ -96,6 +92,10 @@ public abstract class AbstractComponent implements Component {
 		if(enabled) {
 			internalUpdate(gc, sbg, delta);
 		}
+	}
+	
+	public static Color getRenderColor() {
+		return renderColor;
 	}
 	
 	public static float getTextX(float x, float width, String text, Graphics graphics) {

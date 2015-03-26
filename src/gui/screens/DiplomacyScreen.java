@@ -187,7 +187,7 @@ public class DiplomacyScreen extends AbstractScreen {
 	
 	@Override
 	public void internalRender(GameContainer gc, StateBasedGame sbg, Graphics graphics) {
-		colorRectFlagOutline.setColor(AbstractComponent.renderColor.darker());
+		colorRectFlagOutline.setColor(AbstractComponent.getRenderColor().darker());
 		
 		final DiplomaticRelations countryRelations = currentCountry.getRelations();
 		final BilateralRelation biRelations = countryRelations.getBilateral(playerCountry);

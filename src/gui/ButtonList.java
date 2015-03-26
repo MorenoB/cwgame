@@ -50,7 +50,7 @@ public class ButtonList extends AbstractList {
 			height = lineHeight * (displayRows + 2);
 		}
 		
-		graphics.setColor(renderColor);
+		graphics.setColor(getRenderColor());
 		graphics.fillRect(x, y, width, height);
 		graphics.setColor(Color.white);
 		graphics.drawString("/\\", x, y);

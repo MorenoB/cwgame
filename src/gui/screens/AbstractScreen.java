@@ -16,7 +16,7 @@ public abstract class AbstractScreen implements Screen {
 	
 	@Override
 	public final void enter(GameContainer gc, StateBasedGame sbg) {
-		backgroundColor = AbstractComponent.renderColor.darker();
+		backgroundColor = AbstractComponent.getRenderColor().darker();
 		container.setVisible(true);
 		container.setEnabled(true);
 		internalEnter(gc, sbg);

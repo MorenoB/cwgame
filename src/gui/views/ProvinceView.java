@@ -1,6 +1,5 @@
 package gui.views;
 
-import game.GameContext;
 import gui.Button;
 import gui.ButtonBuilder;
 import gui.ButtonList;
@@ -19,9 +18,7 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Input;
 import org.newdawn.slick.state.StateBasedGame;
 
-import diplomacy.Countries;
 import diplomacy.Country;
-import docs.SGMLObject;
 
 // TODO Keep a configuration and store the data required to show the province view. That
 // way it doesn't have to be requested at every render but can instead be stored when a
@@ -89,11 +86,11 @@ public class ProvinceView extends AbstractView implements Component {
 			return;
 		
 		prov.getData().getOwner();
-		if(renderColor != null) {
-			graphics.setColor(renderColor);
+		if(getRenderColor() != null) {
+			graphics.setColor(getRenderColor());
 			graphics.fillRect(x, getY(), WIDTH, HEIGHT);
 		}
-		Button.setRenderColor(renderColor);
+		Button.setRenderColor(getRenderColor());
 		graphics.setColor(Color.white);
 		graphics.drawString(prov.getData().getName() + " (" + prov.getId() + ")", x + TEXTX, y + TEXTY);
 		graphics.drawString("Population: " + prov.getData().getPopulationSize(), x + (TEXTX * 2), y
@@ -110,7 +107,7 @@ public class ProvinceView extends AbstractView implements Component {
 				case DEMOGRAPHICS:
 					listDemographics.render(container, game, graphics);
 					break;
-				
+					
 				case INFRASTRUCTURE:
 					Infrastructure infra = prov.getData().getInfrastructure();
 					graphics.drawString("Railroad: " + infra.getRailroadLevel(), TEXTX * 2, y
@@ -120,7 +117,7 @@ public class ProvinceView extends AbstractView implements Component {
 					counter += 1;
 					graphics.drawString("Sea Port: " + infra.getPortLevel(), TEXTX * 2, y + (TEXTY * counter));
 					break;
-				
+					
 				case ORGANISATIONS:
 					List<Organisation> organisations = prov.getData().getOrganisations();
 					if(organisations != null) {
@@ -141,10 +138,8 @@ public class ProvinceView extends AbstractView implements Component {
 	public void internalUpdate(GameContainer container, StateBasedGame game, int delta) {
 		
 		if(getCurrentProvince() != null) {
-			SGMLObject history = getCurrentProvince().getHistory();
-			Country owner = (history == null) ? null : Countries.getCountry(history.getField("owner"));
-			renderColor = (owner == null) ? GameContext.playerCountry.getData().getColor() : owner.getData()
-					.getColor();
+			Country owner = getCurrentProvince().getData().getOwner();
+			setRenderColor(owner.getData().getColor());
 			
 			Input input = container.getInput();
 			if(input.isKeyDown(Input.KEY_F5)) {

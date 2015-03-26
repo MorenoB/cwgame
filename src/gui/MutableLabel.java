@@ -24,7 +24,7 @@ public class MutableLabel extends AbstractComponent {
 		float textX, textY;
 		
 		if(!((width == 0) || (height == 0))) {
-			graphics.setColor(AbstractComponent.renderColor);
+			graphics.setColor(AbstractComponent.getRenderColor());
 			graphics.fillRect(x, y, width, height);
 			graphics.setColor(color);
 			textX = getTextX(x, width, text, graphics);

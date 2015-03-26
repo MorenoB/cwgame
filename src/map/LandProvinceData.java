@@ -22,8 +22,8 @@ import economy.ResourceTable;
 public class LandProvinceData extends ProvinceData {
 	private static List<MarketActor> switchList = new ArrayList<>();
 	
-	private boolean coastal;
 	private final List<Factory> factories = new ArrayList<>();
+	private boolean hasHistory;
 	private Infrastructure infrastructure;
 	private Market market;
 	private List<MarketActor> marketActors = new ArrayList<>();
@@ -35,7 +35,7 @@ public class LandProvinceData extends ProvinceData {
 	private final Province self;
 	
 	public LandProvinceData(Province self) {
-		coastal = false;
+		hasHistory = false;
 		infrastructure = new Infrastructure(self, null);
 		name = "";
 		pop = null;
@@ -44,7 +44,6 @@ public class LandProvinceData extends ProvinceData {
 	}
 	
 	public LandProvinceData(Province self, SGMLObject history) {
-		
 		this.self = self;
 		reload(history);
 	}
@@ -95,16 +94,12 @@ public class LandProvinceData extends ProvinceData {
 		return resource;
 	}
 	
-	public boolean isCoastal() {
-		return coastal;
+	public boolean hasHistory() {
+		return hasHistory;
 	}
 	
 	public void reload(SGMLObject history) {
-		if(history.hasField("coastal")) {
-			coastal = history.getBoolean("coastal");
-		} else {
-			coastal = false;
-		}
+		hasHistory = true;
 		
 		infrastructure = new Infrastructure(self, history);
 		name = history.getField("name");
@@ -126,6 +121,8 @@ public class LandProvinceData extends ProvinceData {
 		
 		pop = new Population(history);
 		
+		organisations.add(Organisation.createRGO());
+		
 		if(history.hasField("resource")) {
 			resource = ResourceTable.getResource(history.getField("resource"));
 		} else {
@@ -133,7 +130,9 @@ public class LandProvinceData extends ProvinceData {
 		}
 		
 		owner = Countries.getCountry(history.getField("owner"));
-		owner.getData().getProvinces().add(self);
+		if(owner != null) {
+			owner.getData().getProvinces().add(self);
+		}
 	}
 	
 	public void setMarket(Market value) {

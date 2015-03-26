@@ -2,8 +2,6 @@ package map;
 
 import static map.ProvinceData.TERRAIN_INLAND_SEA;
 import static map.ProvinceData.TERRAIN_OCEAN;
-import gnu.trove.list.TIntList;
-import gnu.trove.list.array.TIntArrayList;
 
 import java.io.File;
 
@@ -17,6 +15,10 @@ import docs.SGMLObject;
 import docs.SGMLReaderUtil;
 import economy.Currency;
 import economy.Market;
+import economy.ProvinceMarket;
+import economy.ResourceTable;
+import gnu.trove.list.TIntList;
+import gnu.trove.list.array.TIntArrayList;
 
 /**
  * The base class for a province.
@@ -37,6 +39,7 @@ public class Province {
 	private Image image;
 	private int minX, minY, maxX, maxY;
 	
+	private final ProvinceMarket provMarket;
 	private int terrainType;
 	private final int winterType;
 	private final TIntList xPoints = new TIntArrayList();
@@ -56,13 +59,16 @@ public class Province {
 		if(historyFile.exists()) {
 			history = SGMLReaderUtil.readFromPath(historyFile);
 			data = new LandProvinceData(this, history);
+			provMarket = new ProvinceMarket(this);
 		} else {
 			if(isWater()) {
 				data = null;
 				history = null;
+				provMarket = null;
 			} else {
 				data = new LandProvinceData(this);
 				history = null;
+				provMarket = new ProvinceMarket(this);
 			}
 		}
 	}
@@ -119,6 +125,24 @@ public class Province {
 	
 	public int getId() {
 		return id;
+	}
+	
+	public ResourceTable getLocalResources() {
+		ResourceTable table = new ResourceTable();
+		
+		for(SubPopulation subPop: getData().getPopulation().getSubPopulations()) {
+			table.add(subPop.getResources());
+		}
+		
+		for(Organisation org: getData().getOrganisations()) {
+			table.add(org.getResources());
+		}
+		
+		return table;
+	}
+	
+	public ProvinceMarket getMarket() {
+		return provMarket;
 	}
 	
 	public int getMaxX() {
@@ -257,7 +281,11 @@ public class Province {
 	}
 	
 	public void updatePopulation(double monthlyPopGrowth) {
-		data.getPopulation().update(this, monthlyPopGrowth);
+		LandProvinceData data = getData();
+		assert (data != null);
+		Population pop = data.getPopulation();
+		assert (pop != null);
+		pop.update(this, monthlyPopGrowth);
 	}
 	
 	public void updateResources() {

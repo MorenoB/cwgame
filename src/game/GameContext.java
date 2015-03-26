@@ -18,7 +18,7 @@ public class GameContext {
 	public static final GlobalPoliticalContext globalContext = new GlobalPoliticalContext("res/politics/");
 	public static boolean paused = true;
 	public static Country playerCountry;
-	public static final ProvinceScanner provinceScanner = new ProvinceScanner();
+	public static final ProvinceScanner provinceScanner = new ProvinceScanner(false);
 	public static final int thresholdOfClock = defines.getInt("clockThreshold");
 	
 	public static void init() {

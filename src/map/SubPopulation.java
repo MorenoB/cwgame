@@ -8,7 +8,9 @@ public class SubPopulation extends MarketActor {
 	public float literacy;
 	public final String nationality;
 	public final String religion;
+	private final ResourceTable remainingNeeds = new ResourceTable();
 	public long size;
+	
 	public final PopulationType type;
 	
 	public SubPopulation(SGMLObject object) {
@@ -29,11 +31,9 @@ public class SubPopulation extends MarketActor {
 		initBuyRequests();
 	}
 	
-	private void addProducedResources(Province homeProv) {
+	public void addProducedResources(Province homeProv) {
 		ResourceTable production = type.getProduction();
-		homeProv.getData().getOwner().getPoliticalContext();
 		for(int i = 0; i < production.getResourceAmounts().length; i++) {
-			ResourceTable.getResource(i).getProductivitySimulation();
 			double value = production.get(i);
 			if(value == 0d) {
 				continue;
@@ -45,16 +45,20 @@ public class SubPopulation extends MarketActor {
 		getResources().add(production.mul(size));
 	}
 	
-	private void consumeEverydayNeeds() {
-		
-	}
-	
-	private void consumeLifeNeeds() {
-		
-	}
-	
-	private void consumeLuxuryNeeds() {
-		
+	public void consumeOwnedResources() {
+		for(int i = 0; i < ResourceTable.getResourceArrayLength(); i++) {
+			double owned = getResources().get(i);
+			double need = remainingNeeds.get(i);
+			if(owned > need) {
+				remainingNeeds.set(i, 0d);
+				owned -= need;
+			} else {
+				owned = 0;
+				remainingNeeds.set(i, need - owned);
+			}
+			
+			getResources().set(i, owned);
+		}
 	}
 	
 	public float getLiteracy() {
@@ -67,6 +71,10 @@ public class SubPopulation extends MarketActor {
 	
 	public String getReligion() {
 		return religion;
+	}
+	
+	public ResourceTable getRemainingNeeds() {
+		return remainingNeeds;
 	}
 	
 	public long getSize() {
@@ -84,6 +92,19 @@ public class SubPopulation extends MarketActor {
 	// TODO maybe make this lazy
 	private void initBuyRequests() {
 		
+	}
+	
+	public void resetRemainingNeeds() {
+		for(int i = 0; i < ResourceTable.getResourceArrayLength(); i++) {
+			double current = remainingNeeds.get(i);
+			double staticNeed = 0d;
+			staticNeed += type.getLifeNeeds().get(i);
+			staticNeed += type.getEverydayNeeds().get(i);
+			staticNeed += type.getLuxuryNeeds().get(i);
+			staticNeed *= size;
+			double newNeed = current + staticNeed;
+			remainingNeeds.set(i, newNeed);
+		}
 	}
 	
 	public void update(double monthlyPopGrowth, Population superPop, Province homeProv) {

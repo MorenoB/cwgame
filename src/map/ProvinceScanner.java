@@ -10,11 +10,21 @@ import org.lwjgl.opengl.GL11;
 public class ProvinceScanner {
 	private static final boolean CHECK_SYSTEM = false;
 	
+	private final boolean dataOnlyMode;
 	private final Province[][] provincePixels;
 	private final TIntObjectMap<Province> provinces = new TIntObjectHashMap<Province>();
 	
+	/**
+	 * Creates a new province scanner that generates OpenGL-based rendering information
+	 * for it's provinces.
+	 */
 	public ProvinceScanner() {
+		this(false);
+	}
+	
+	public ProvinceScanner(boolean dataOnlyMode) {
 		provincePixels = new Province[ImageCache.provinces.getWidth()][ImageCache.provinces.getHeight()];
+		this.dataOnlyMode = dataOnlyMode;
 	}
 	
 	public void addProvince(int color, int x, int y) {
@@ -63,7 +73,9 @@ public class ProvinceScanner {
 		
 		for(final Object obj: this.provinces.values()) {
 			final Province prov = (Province) obj;
-			prov.testGenTexture();
+			if(!dataOnlyMode) {
+				prov.testGenTexture();
+			}
 			prov.determineTerrain();
 			prov.nullifyHistory();
 			prov.createMarket();

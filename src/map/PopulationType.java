@@ -111,7 +111,7 @@ public class PopulationType {
 		production.set(id, (float) base);
 	}
 	
-	public ResourceTable getEveryDayNeeds() {
+	public ResourceTable getEverydayNeeds() {
 		return everydayNeeds;
 	}
 	

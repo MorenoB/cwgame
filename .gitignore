@@ -5,7 +5,6 @@
 .cache
 /res/music/
 log.txt
-/src/testing/*
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

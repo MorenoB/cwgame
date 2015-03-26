@@ -48,6 +48,12 @@ public class ResourceTable {
 		resourceAmounts[resourceId] = amount;
 	}
 	
+	public void clear() {
+		for(int i = 0; i < getResourceArrayLength(); i++) {
+			resourceAmounts[i] = 0d;
+		}
+	}
+	
 	public double get(int resourceId) {
 		return resourceAmounts[resourceId];
 	}
@@ -81,6 +87,22 @@ public class ResourceTable {
 	
 	public void set(int resourceId, double value) {
 		resourceAmounts[resourceId] = value;
+	}
+	
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		
+		for(int i = 0; i < getResourceArrayLength(); i++) {
+			if(resourceAmounts[i] == 0d) {
+				continue;
+			}
+			builder.append(resourceNames[i]);
+			builder.append(" ");
+			builder.append(resourceAmounts[i]);
+			builder.append("\n");
+		}
+		
+		return builder.toString();
 	}
 	
 	public static Resource getResource(int id) {

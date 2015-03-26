@@ -15,6 +15,12 @@ public class Organisation extends MarketActor {
 		type = OrganisationType.valueOf(typeName);
 	}
 	
+	private Organisation(String name) {
+		super();
+		this.name = name;
+		type = OrganisationType.RESOURCE_EXTRACTOR;
+	}
+	
 	public void generateResources(LandProvinceData data) {
 		if(getType() == OrganisationType.RESOURCE_EXTRACTOR) {
 			long workerPops = 0;
@@ -40,5 +46,9 @@ public class Organisation extends MarketActor {
 	
 	public OrganisationType getType() {
 		return type;
+	}
+	
+	public static Organisation createRGO() {
+		return new Organisation("RGO");
 	}
 }

@@ -57,6 +57,16 @@ public class Logger implements AutoCloseable, Closeable {
 		}
 	}
 	
+	public void log(String[] logArray, boolean logSysSep) {
+		String sysSep = System.getProperty("line.separator");
+		for(String element: logArray) {
+			log(element);
+			if(logSysSep) {
+				log(sysSep);
+			}
+		}
+	}
+	
 	public void setMinLogLevel(LogLevel value) {
 		minLogLevel = value;
 	}

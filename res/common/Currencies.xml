@@ -6,6 +6,9 @@
 			<acronym>USD</acronym>
 		</names>
 
+		<value>
+			<initial>1</initial>
+		</value>
 		<issuer>Bureau of Engraving and Printing</issuer>
 	</currency>
 
@@ -16,6 +19,9 @@
 			<acronym>SUR</acronym>
 		</names>
 
+		<value>
+			<initial>5</initial>
+		</value>
 		<issuer>Goznak</issuer>
 	</currency>
 
@@ -26,6 +32,9 @@
 			<acronym>KPW</acronym>
 		</names>
 
+		<value>
+			<initial>1000</initial>
+		</value>
 		<issuer>Central Bank of the DPRK</issuer>
 	</currency>
 
@@ -36,6 +45,9 @@
 			<acronym>KRW</acronym>
 		</names>
 
+		<value>
+			<initial>1000</initial>
+		</value>
 		<issuer>KOMSCO</issuer>
 	</currency>
 	
@@ -46,6 +58,9 @@
 			<acronym>FIM</acronym>
 		</names>
 		
+		<value>
+			<initial>20</initial>
+		</value>
 		<issuer>Bank of Finland</issuer>
 	</currency>
 </currencies>

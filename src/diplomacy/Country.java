@@ -86,7 +86,6 @@ public class Country extends MarketActor implements Comparable<Country> {
 		data.setPopulation(population);
 		
 		for(Province prov: data.getProvinces()) {
-			
 			prov.updatePopulation(data.getMonthlyPopGrowth());
 		}
 		

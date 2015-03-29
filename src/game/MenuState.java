@@ -16,7 +16,8 @@ public class MenuState extends BasicGameState {
 	private static final MenuState INSTANCE = new MenuState();
 	private final Color backgroundColor = new Color(43, 28, 107);
 	private final Container container = new Container();
-	private Image sovietFlag, usFlag;
+	// private Image sovietFlag, usFlag;
+	private Image titleScreenImage;
 	
 	public int getID() {
 		return 1;
@@ -41,22 +42,30 @@ public class MenuState extends BasicGameState {
 		});
 		container.addComponent(playButton);
 		
-		sovietFlag = new Image("res/gfx/flags/Flag of the Soviet Union.png");
-		usFlag = new Image("res/gfx/flags/Flag of the United States.png");
+		/*
+		 * sovietFlag = new Image("res/gfx/flags/Flag of the Soviet Union.png"); usFlag =
+		 * new Image("res/gfx/flags/Flag of the United States.png");
+		 */
+		String titleScreenImagePath = GameContext.defines.getField("titleScreenImage");
+		titleScreenImage = new Image(titleScreenImagePath);
 	}
 	
 	@Override
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics gfx) throws SlickException {
-		gfx.setColor(backgroundColor);
-		gfx.fillRect(0, 0, gc.getWidth(), gc.getHeight());
-		container.render(gc, sbg, gfx);
-		sovietFlag.startUse();
-		sovietFlag.drawEmbedded(gc.getWidth() / 2, (gc.getHeight() / 2) - 96 - 16, 160, 80);
-		sovietFlag.endUse();
-		usFlag.startUse();
-		usFlag.drawEmbedded((gc.getWidth() / 2) - 160, (gc.getHeight() / 2) - 96 - 16, 160, 80);
-		usFlag.endUse();
+		/*
+		 * gfx.setColor(backgroundColor); gfx.fillRect(0, 0, gc.getWidth(),
+		 * gc.getHeight());
+		 * 
+		 * /*sovietFlag.startUse(); sovietFlag.drawEmbedded(gc.getWidth() / 2,
+		 * (gc.getHeight() / 2) - 96 - 16, 160, 80); sovietFlag.endUse();
+		 * usFlag.startUse(); usFlag.drawEmbedded((gc.getWidth() / 2) - 160,
+		 * (gc.getHeight() / 2) - 96 - 16, 160, 80); usFlag.endUse();
+		 */
 		
+		titleScreenImage.startUse();
+		titleScreenImage.drawEmbedded(0, 0, gc.getWidth(), gc.getHeight());
+		titleScreenImage.endUse();
+		container.render(gc, sbg, gfx);
 		ScreenshotUtility.update(gc, sbg, gfx);
 		
 	}

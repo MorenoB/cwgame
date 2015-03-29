@@ -1,9 +1,7 @@
 <simulation>
-	<name>Unemployment</name>
+	<name>Military Per Capita</name>
 	
 	<representation>
 		<type>REGULAR_PERCENTAGE</type>
 	</representation>
-	
-	
 </simulation>

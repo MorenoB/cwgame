@@ -6,7 +6,5 @@
 		<type>BOUNDED_DECIMAL_0_TO_MAX</type>
 	</representation>
 	
-	<generation>
-		<class>politics.simulations.generators.GrainProductivityValueGenerator</class>
-	</generation>
+	
 </simulation>

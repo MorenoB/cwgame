@@ -5,7 +5,5 @@
 		<type>REGULAR_PERCENTAGE</type>
 	</representation>
 	
-	<generation>
-		<class>politics.simulations.generators.WealthInequalityValueGenerator</class>
-	</generation>
+	
 </simulation>

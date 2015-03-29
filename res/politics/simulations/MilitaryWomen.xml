@@ -1,0 +1,12 @@
+<simulation>
+	<name>Military Women</name>
+	<internal>MilitaryWomen</internal>
+	<description>
+		Traditionally barred from military service, especially in combat roles, this
+		simulation represents the percentage of women in the armed forces.
+	</description>
+	
+	<representation>
+		<type>REGULAR_PERCENTAGE</type>
+	</representation>
+</simulation>

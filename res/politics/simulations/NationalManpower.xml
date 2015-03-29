@@ -1,0 +1,13 @@
+<simulation>
+	<name>National Manpower</name>
+	<internal>NationalManpower</internal>
+	<expression>Population*MilitaryPerCapita*MilitaryWomen</expression>
+	<description>
+		This value represents the amount of service-aged citizens that can become part of
+		the armed forces. 
+	</description>
+	
+	<representation>
+		<type>BOUNDED_INTEGER_0_TO_MAX</type>
+	</representation>
+</simulation>

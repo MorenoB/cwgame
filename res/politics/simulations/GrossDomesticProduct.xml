@@ -4,9 +4,4 @@
 	<representation>
 		<type>BOUNDED_INTEGER_0_TO_MAX</type>
 	</representation>
-	
-	<generation>
-		<class>politics.simulations.generators.GrossDomesticProductValueGenerator</class>
-		<method>generate</method>
-	</generation>
 </simulation>

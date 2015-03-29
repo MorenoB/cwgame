@@ -5,8 +5,5 @@
 		<type>BOUNDED_INTEGER_0_TO_MAX</type>
 	</representation>
 	
-	<generation>
-		<class>politics.simulations.generators.LaborForceValueGenerator</class>
-		<method>generate</method>
-	</generation>
+	
 </simulation>

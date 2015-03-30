@@ -51,6 +51,10 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.0</version>
 		</dependency>
-
+	 <dependency>
+	  <groupId>org.slick2d</groupId>
+	  <artifactId>slick2d-core</artifactId>
+	  <version>1.0.1</version>
+	 </dependency>
 	</dependencies>
 </project>

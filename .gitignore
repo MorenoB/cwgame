@@ -10,7 +10,7 @@ log.txt
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar
 *.war
 *.ear
 

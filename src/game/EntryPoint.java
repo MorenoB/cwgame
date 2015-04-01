@@ -5,8 +5,11 @@ import org.lwjgl.opengl.DisplayMode;
 import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.SlickException;
 
+import util.OutputRedirector;
+
 public class EntryPoint {
 	public static void main(String[] args) throws SlickException {
+		OutputRedirector.redirectOutput("log", "system.out.txt", "system.err.txt");
 		DisplayMode desktopMode = Display.getDesktopDisplayMode();
 		AppGameContainer app = new AppGameContainer(ColdWarGame.get());
 		app.setDisplayMode(desktopMode.getWidth(), desktopMode.getHeight(), true);

@@ -27,6 +27,10 @@ public class CountryBuilder {
 		while(running) {
 			System.out.println();
 			switch(scanner.nextLine()) {
+			case "nationality":
+				System.out.print("Add new nationality: ");
+				nationality = scanner.nextLine();
+				break;
 			case "new":
 				System.out.print("Enter province ID: ");
 				int provId = Integer.parseInt(scanner.nextLine());

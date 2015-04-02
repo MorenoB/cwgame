@@ -1,0 +1,31 @@
+<name>
+	Wizna
+</name>
+<owner>
+	Poland
+</owner>
+<city>
+	Lomza
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Polish
+		</nationality>
+		<religion>
+			Catholic
+		</religion>
+		<size>
+			381906
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.65
+		</literacy>
+	</population>
+</populations>

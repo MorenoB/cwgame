@@ -1,0 +1,31 @@
+<name>
+	Lublin
+</name>
+<owner>
+	Poland
+</owner>
+<city>
+	Lublin
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Polish
+		</nationality>
+		<religion>
+			Catholic
+		</religion>
+		<size>
+			1145718
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.65
+		</literacy>
+	</population>
+</populations>

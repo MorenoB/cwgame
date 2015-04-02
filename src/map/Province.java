@@ -17,6 +17,7 @@ import economy.Currency;
 import economy.Market;
 import economy.ProvinceMarket;
 import economy.ResourceTable;
+import game.GameContext;
 import gnu.trove.list.TIntList;
 import gnu.trove.list.array.TIntArrayList;
 
@@ -27,6 +28,9 @@ import gnu.trove.list.array.TIntArrayList;
  *
  */
 public class Province {
+	private static final int SEA_R = GameContext.defines.getChild("seaColor").getInt("red");
+	private static final int SEA_G = GameContext.defines.getChild("seaColor").getInt("green");
+	private static final int SEA_B = GameContext.defines.getChild("seaColor").getInt("blue");
 	private static int idGen = 0;
 	private static int maxPoints = 0;
 	private final int climateType;
@@ -289,7 +293,7 @@ public class Province {
 					// setProvinceColor(55 / 255f, 90 / 255f, 220 / 255f);
 					// always use the shallow sea color.
 					// setProvinceColor(8 / 255f, 31 / 255f, 130 / 255f);
-					setProvinceColor(30 / 255f, 60 / 255f, 180 / 255f);
+					setProvinceColor(SEA_R / 255f, SEA_G / 255f, SEA_B / 255f);
 				} else {
 					setProvinceColor(.3f, .3f, .3f);
 				}

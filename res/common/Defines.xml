@@ -6,6 +6,12 @@
 	<productionModifier>1</productionModifier>
 	<titleScreenImage>res/gfx/interface/OfBearsAndEagles1.png</titleScreenImage>
 	
+	<seaColor>
+		<red>137</red>
+		<green>207</green>
+		<blue>240</blue>
+	</seaColor>
+	
 	<date>
 		<year>1949</year>
 		<month>11</month>

@@ -14,16 +14,11 @@ public class OutputRedirector {
 	 * @param sysOut The name of the System.out output file.
 	 * @param sysErr The name of the System.err output file.
 	 */
-	public static void redirectOutput(String dir, String sysOut, String sysErr) {
+	public static void redirectOutput(String dir, String sysOut) {
 		try {
 			File dirFile = new File(dir);
 			if(!dirFile.exists()) {
 				dirFile.mkdirs();
-			}
-			
-			File sysErrFile = new File(dir + "/" + sysErr);
-			if(!sysErrFile.exists()) {
-				sysErrFile.createNewFile();
 			}
 			
 			File sysOutFile = new File(dir + "/" + sysOut);
@@ -31,7 +26,6 @@ public class OutputRedirector {
 				sysOutFile.createNewFile();
 			}
 			
-			System.setErr(new PrintStream(new BufferedOutputStream(new FileOutputStream(sysErrFile))));
 			System.setOut(new PrintStream(new BufferedOutputStream(new FileOutputStream(sysOutFile))));
 		} catch (FileNotFoundException exception) {
 			exception.printStackTrace();

@@ -81,6 +81,8 @@ public class DiplomacyView extends AbstractView implements Component {
 	@Override
 	public void setCurrentProvince(Province value) {
 		super.setCurrentProvince(value);
-		country = value.getData().getOwner();
+		if(value.getData().getOwner() != null) {
+			country = value.getData().getOwner();
+		}
 	}
 }

@@ -1,0 +1,13 @@
+<name>Lapland</name>
+<owner>Finland</owner>
+<resource>Grain</resource>
+
+<populations>
+	<population>
+		<nationality>Finnish</nationality>
+		<religion>Protestant</religion>
+		<size>130000</size>
+		<type>Farmer</type>
+		<literacy>0.85</literacy>
+	</population>
+</populations>

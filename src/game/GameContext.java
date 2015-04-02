@@ -12,6 +12,7 @@ import docs.SGMLObject;
 import docs.SGMLReaderUtil;
 
 public class GameContext {
+	public static final boolean DEBUG = true;
 	public static final Calendar calendar = new GregorianCalendar();
 	public static final String definePath = "res/common/Defines.xml";
 	public static final SGMLObject defines = SGMLReaderUtil.readFromPath(definePath).getChild("defines");

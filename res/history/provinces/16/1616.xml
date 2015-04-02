@@ -1,0 +1,13 @@
+<name>Tavastland</name>
+<owner>Finland</owner>
+<population>580000</population>
+
+<populations>
+	<population>
+		<nationality>Finnish</nationality>
+		<religion>Protestant</religion>
+		<size>580000</size>
+		<type>Farmer</type>
+		<literacy>0.85</literacy>
+	</population>
+</populations>

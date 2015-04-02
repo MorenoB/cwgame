@@ -5,6 +5,7 @@ import java.util.List;
 
 import diplomacy.Countries;
 import diplomacy.Country;
+import diplomacy.CountryData;
 import docs.SGMLObject;
 import economy.Factory;
 import economy.Market;
@@ -132,6 +133,10 @@ public class LandProvinceData extends ProvinceData {
 		owner = Countries.getCountry(history.getField("owner"));
 		if(owner != null) {
 			owner.getData().getProvinces().add(self);
+			CountryData d = owner.getData();
+			if(d != null) {
+			self.setProvinceColor(d.getRed(), d.getGreen(), d.getBlue());
+			}
 		}
 	}
 	

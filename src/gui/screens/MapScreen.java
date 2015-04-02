@@ -128,7 +128,10 @@ public class MapScreen implements Screen {
 					} else {
 						provinceView.setVisible(true);
 						diplomacyView.setVisible(true);
-						AbstractComponent.setRenderColor(prov.getData().getOwner().getData().getColor());
+						if(!prov.isWater() && prov.getData().getOwner() != null) {
+							AbstractComponent.setRenderColor(prov.getData().getOwner().getData().getColor());
+						}
+						
 					}
 				}
 			}

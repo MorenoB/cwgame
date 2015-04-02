@@ -1,0 +1,13 @@
+<name>Nyland</name>
+<owner>Finland</owner>
+<population>1500000</population>
+
+<populations>
+	<population>
+		<nationality>Finnish</nationality>
+		<religion>Protestant</religion>
+		<size>1500000</size>
+		<type>Farmer</type>
+		<literacy>0.85</literacy>
+	</population>
+</populations>

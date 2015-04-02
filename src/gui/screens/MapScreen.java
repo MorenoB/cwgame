@@ -5,7 +5,6 @@ import game.GameContext;
 import game.ImageCache;
 import game.MapViewState;
 import game.PlayGameState;
-import game.ProvinceRenderer;
 import gui.AbstractComponent;
 import gui.Button;
 import gui.Container;
@@ -20,6 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import map.Province;
+import map.ProvinceRenderer;
 
 import org.apache.commons.lang3.text.WordUtils;
 import org.newdawn.slick.Color;

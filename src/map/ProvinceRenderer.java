@@ -1,6 +1,6 @@
-package game;
+package map;
 
-import map.Province;
+import game.GameContext;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;

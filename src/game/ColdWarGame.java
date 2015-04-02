@@ -17,7 +17,8 @@ public class ColdWarGame extends StateBasedGame {
 		addState(MenuState.get());
 		addState(MapViewState.get());
 		addState(PlayGameState.get());
-		enterState(IntroState.get().getID());
+		addState(PreIntroState.get());
+		enterState(PreIntroState.get().getID());
 	}
 	
 	public static ColdWarGame get() {

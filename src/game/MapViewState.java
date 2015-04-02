@@ -8,6 +8,7 @@ import gui.views.AbstractView;
 import gui.views.CountryView;
 import map.LandProvinceData;
 import map.Province;
+import map.ProvinceRenderer;
 
 import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;

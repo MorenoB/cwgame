@@ -1,36 +1,30 @@
 package game;
 
+import economy.CurrencyTable;
+import economy.ResourceTable;
+
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
-import economy.CurrencyTable;
-import economy.ResourceTable;
-
-public class IntroState extends BasicGameState {
-	private static final IntroState INSTANCE = new IntroState();
+public class PreIntroState extends BasicGameState {
+	private static final PreIntroState INSTANCE = new PreIntroState();
 	private boolean renderedOnce = false;
-	
-	public IntroState() {}
 	
 	@Override
 	public int getID() {
-		return 0;
+		return 5;
 	}
 	
 	@Override
 	public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
-		gc.setUpdateOnlyWhenVisible(false);
-		ResourceTable.init();
-		CurrencyTable.init();
-		GameContext.init();
+		
 	}
 	
 	@Override
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics gfx) throws SlickException {
-		
 		float textWidth = gfx.getFont().getWidth("Loading...");
 		float textHeight = gfx.getFont().getHeight("Loading...");
 		float textX = gc.getWidth() / 2 - textWidth / 2;
@@ -42,11 +36,11 @@ public class IntroState extends BasicGameState {
 	@Override
 	public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
 		if(renderedOnce) {
-			sbg.enterState(MenuState.get().getID());
+			sbg.enterState(IntroState.get().getID());
 		}
 	}
 	
-	public static IntroState get() {
+	public static PreIntroState get() {
 		return INSTANCE;
 	}
 }

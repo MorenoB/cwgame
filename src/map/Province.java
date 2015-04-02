@@ -235,8 +235,8 @@ public class Province {
 	}
 
 	public void testGenTexture() {
-		if ((terrainType == TERRAIN_INLAND_SEA)
-				|| (terrainType == TERRAIN_OCEAN) || (history != null)) {
+		/*if ((terrainType == TERRAIN_INLAND_SEA)
+				|| (terrainType == TERRAIN_OCEAN) || (history != null) || history == null) {*/
 
 			assert (xPoints.size() == yPoints.size());
 			int minX = xPoints.get(0);
@@ -290,9 +290,11 @@ public class Province {
 					// always use the shallow sea color.
 					// setProvinceColor(8 / 255f, 31 / 255f, 130 / 255f);
 					setProvinceColor(30 / 255f, 60 / 255f, 180 / 255f);
+				} else {
+					setProvinceColor(.3f, .3f, .3f);
 				}
 			}
-		}
+		/*}*/
 	}
 
 	public void updateHistory() {

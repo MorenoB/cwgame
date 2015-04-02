@@ -1,0 +1,31 @@
+<name>
+	Suo
+</name>
+<owner>
+	Japan
+</owner>
+<city>
+	Yamaguchi
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Japanese
+		</nationality>
+		<religion>
+			Shinto
+		</religion>
+		<size>
+			5187498
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.7
+		</literacy>
+	</population>
+</populations>

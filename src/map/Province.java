@@ -53,9 +53,8 @@ public class Province {
 		climateType = ImageCache.climateMap.getRGB(x, y);
 		terrainType = ImageCache.terrain.getRGB(x, y);
 		winterType = ImageCache.winterMap.getRGB(x, y);
-		final int idsubFile = id / 100;
-		historyFile = new File("res/history/provinces/" + idsubFile + "/" + id
-				+ ".xml");
+		final int idSubFile = id / 100;
+		historyFile = getHistoryFile(idSubFile, id);
 
 		if (historyFile.exists()) {
 			history = SGMLReaderUtil.readFromPath(historyFile);
@@ -72,6 +71,17 @@ public class Province {
 				provMarket = new ProvinceMarket(this);
 			}
 		}
+	}
+
+	private File getHistoryFile(int idSubFile, int id) {
+		File genFolderFile =  new File("res/history/provinces/gen/" + idSubFile + "/" + id
+				+ ".xml");
+		
+		if(genFolderFile.exists()) return genFolderFile;
+		File baseFolderFile =  new File("res/history/provinces/" + idSubFile + "/" + id
+				+ ".xml");
+		
+		return baseFolderFile;
 	}
 
 	public void addPoint(int x, int y) {
@@ -286,7 +296,8 @@ public class Province {
 	}
 
 	public void updateHistory() {
-		history = SGMLReaderUtil.readFromPath(historyFile);
+		history = SGMLReaderUtil.readFromPath(getHistoryFile(
+				id / 100, id));
 		data.reload(history);
 	}
 

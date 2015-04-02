@@ -58,4 +58,10 @@ public class SGMLWriter extends AbstractWriter implements
 			throw new RuntimeException(exception);
 		}
 	}
+
+	public void dataElement(String name, String data) {
+		elementStart(name);
+		textNode(data);
+		elementEnd(name);
+	}
 }

@@ -1,0 +1,31 @@
+<name>
+	Echigo
+</name>
+<owner>
+	Japan
+</owner>
+<city>
+	Niigata
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Japanese
+		</nationality>
+		<religion>
+			Shinto
+		</religion>
+		<size>
+			3458332
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.7
+		</literacy>
+	</population>
+</populations>

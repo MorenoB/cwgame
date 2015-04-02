@@ -1,0 +1,31 @@
+<name>
+	Münster
+</name>
+<owner>
+	West Germany
+</owner>
+<city>
+	Münster
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			German
+		</nationality>
+		<religion>
+			Protestant
+		</religion>
+		<size>
+			1592432
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.95
+		</literacy>
+	</population>
+</populations>

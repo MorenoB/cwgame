@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 import docs.SGMLWriter;
 
+/**
+ * A utility for adding the provinces of a country. Run from the console and supply with accurate numbers.
+ * @author nastyasalways
+ *
+ */
 public class CountryBuilder {
 	public static void main(String[] args) throws Exception {
 		Scanner scanner = new Scanner(System.in);
@@ -27,6 +32,14 @@ public class CountryBuilder {
 		while(running) {
 			System.out.println();
 			switch(scanner.nextLine()) {
+			case "religion":
+				System.out.print("Add new religion: ");
+				religion = scanner.nextLine();
+				break;
+			case "literacy":
+				System.out.print("Add new literacy rate: ");
+				literacy = Double.parseDouble(scanner.nextLine());
+				break;
 			case "nationality":
 				System.out.print("Add new nationality: ");
 				nationality = scanner.nextLine();

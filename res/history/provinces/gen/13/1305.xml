@@ -1,0 +1,31 @@
+<name>
+	Kassel
+</name>
+<owner>
+	West Germany
+</owner>
+<city>
+	Kassel
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			German
+		</nationality>
+		<religion>
+			Protestant
+		</religion>
+		<size>
+			597162
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.95
+		</literacy>
+	</population>
+</populations>

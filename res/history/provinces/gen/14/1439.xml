@@ -1,0 +1,31 @@
+<name>
+	Bohemia
+</name>
+<owner>
+	Czechoslovakia
+</owner>
+<city>
+	Praha
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Czech
+		</nationality>
+		<religion>
+			Catholic
+		</religion>
+		<size>
+			3496519
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.75
+		</literacy>
+	</population>
+</populations>

@@ -1,0 +1,31 @@
+<name>
+	Pozsony
+</name>
+<owner>
+	Czechoslovakia
+</owner>
+<city>
+	Bratislava
+</city>
+<resource>
+	Grain
+</resource>
+<populations>
+	<population>
+		<nationality>
+			Slovak
+		</nationality>
+		<religion>
+			Catholic
+		</religion>
+		<size>
+			2151704
+		</size>
+		<type>
+			Farmer
+		</type>
+		<literacy>
+			0.75
+		</literacy>
+	</population>
+</populations>

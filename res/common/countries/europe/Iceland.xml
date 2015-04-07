@@ -1,0 +1,25 @@
+<country>
+	<name>Iceland</name>
+	<flag>Flag of Iceland.png</flag>
+	<information>
+		<official>Island</official>
+		<acronym>ISL</acronym>
+		<adjective>Icelandic</adjective>
+		<color>
+			<red>155</red>
+			<green>150</green>
+			<blue>150</blue>
+		</color>
+		<currency>ISK</currency>
+	</information>
+	
+	<politics>
+		<government>Democracy</government>
+		<economy>Mixed Economy</economy>
+		<leader>Sveinn Björnsson</leader>
+	</politics>
+	
+	<population>
+		<growth>1.001</growth>
+	</population>
+</country>

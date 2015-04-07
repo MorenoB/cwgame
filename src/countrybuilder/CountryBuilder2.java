@@ -36,6 +36,9 @@ public class CountryBuilder2 {
 			int provDirIndex = prov.id / 100;
 			String provFilePath = BASE_PATH + provDirIndex + "/" + prov.id + ".xml";
 			File provFile = new File(provFilePath);
+			if(!provFile.exists()) {
+				provFile.createNewFile();
+			}
 			FileOutputStream fos = new FileOutputStream(provFile);
 			SGMLWriter writer = new SGMLWriter(fos);
 			writeProv(writer, prov);
@@ -79,6 +82,7 @@ public class CountryBuilder2 {
 		cb2.countryName = StringUtils.capitalize(nextLine(scanner));
 		System.out.print("Enter country population (Nov 1949): ");
 		cb2.totalPopulation = Long.parseLong(nextLine(scanner));
+		System.out.println("Now, please use the nationality, religion and literacy commands.");
 		
 		while(running) {
 			String input = nextLine(scanner).toLowerCase();
@@ -104,6 +108,7 @@ public class CountryBuilder2 {
 					newProv.resource = StringUtils.capitalize(nextLine(scanner));
 					System.out.print("Enter city base tax: ");
 					newProv.baseTax = Integer.parseInt(nextLine(scanner));
+					cb2.provinces.add(newProv);
 					break;
 				case "literacy":
 					cb2.currentLiteracy = Double.parseDouble(nextLine(scanner));

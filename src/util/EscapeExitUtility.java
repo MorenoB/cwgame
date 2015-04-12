@@ -1,4 +1,4 @@
-package game;
+package util;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Input;

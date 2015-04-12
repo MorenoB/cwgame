@@ -1,5 +1,9 @@
-package game;
+package game.states;
 
+import game.Camera;
+import game.ColdWarGame;
+import game.GameContext;
+import game.ImageCache;
 import gui.AbstractComponent;
 import gui.Button;
 import gui.ButtonBuilder;
@@ -20,6 +24,8 @@ import org.newdawn.slick.geom.Rectangle;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
+import util.EscapeExitUtility;
+import util.ScreenshotUtility;
 import diplomacy.Countries;
 import diplomacy.Country;
 

@@ -1,5 +1,6 @@
-package game;
+package game.states;
 
+import game.GameContext;
 import gui.Button;
 import gui.ButtonBuilder;
 import gui.Container;
@@ -11,6 +12,9 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
+
+import util.EscapeExitUtility;
+import util.ScreenshotUtility;
 
 public class MenuState extends BasicGameState {
 	private static final MenuState INSTANCE = new MenuState();

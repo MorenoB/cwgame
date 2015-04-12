@@ -1,5 +1,11 @@
 package game;
 
+import game.states.IntroState;
+import game.states.MapViewState;
+import game.states.MenuState;
+import game.states.PlayGameState;
+import game.states.PreIntroState;
+
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;

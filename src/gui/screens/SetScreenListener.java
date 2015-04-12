@@ -1,6 +1,6 @@
 package gui.screens;
 
-import game.PlayGameState;
+import game.states.PlayGameState;
 import gui.Button;
 import gui.ButtonListener;
 

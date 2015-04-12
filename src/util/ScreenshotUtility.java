@@ -1,4 +1,6 @@
-package game;
+package util;
+
+import game.GameContext;
 
 import java.io.File;
 import java.io.FileOutputStream;

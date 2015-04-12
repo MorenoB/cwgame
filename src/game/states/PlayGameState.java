@@ -1,5 +1,6 @@
-package game;
+package game.states;
 
+import game.GameContext;
 import gui.screens.CurrentScreen;
 import gui.screens.DiplomacyScreen;
 import gui.screens.EconomyScreen;
@@ -22,6 +23,9 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
+
+import util.EscapeExitUtility;
+import util.ScreenshotUtility;
 
 public class PlayGameState extends BasicGameState {
 	private static final PlayGameState INSTANCE = new PlayGameState();

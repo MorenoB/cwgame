@@ -8,6 +8,13 @@ import docs.SGMLObject;
 import docs.SGMLReaderUtil;
 import expr.Parser;
 
+/**
+ * The global political context keeps track of general data about political policies and
+ * simulations.
+ * 
+ * @author nastyasalways
+ *
+ */
 public class GlobalPoliticalContext {
 	private final Parser exprParser = new Parser();
 	private final Map<String, Policy> policies = new HashMap<>();

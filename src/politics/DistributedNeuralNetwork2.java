@@ -1,10 +1,12 @@
-package testing.politics;
+package politics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import testing.politics.NeuralNetwork;
+import testing.politics.Neuron;
 import expr.Expr;
 import expr.Parser;
 import expr.SyntaxException;

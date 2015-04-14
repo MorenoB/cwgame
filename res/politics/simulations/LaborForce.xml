@@ -1,9 +1,0 @@
-<simulation>
-	<name>Labor Force</name>
-	
-	<representation>
-		<type>BOUNDED_INTEGER_0_TO_MAX</type>
-	</representation>
-	
-	
-</simulation>

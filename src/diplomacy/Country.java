@@ -2,21 +2,18 @@ package diplomacy;
 
 import logger.Logger;
 import map.Province;
-import politics.LocalPoliticalContext;
 import docs.SGMLObject;
 import economy.MarketActor;
 
 public class Country extends MarketActor implements Comparable<Country> {
 	private final CountryData data;
 	private boolean playerControlled = false;
-	private final LocalPoliticalContext politicalContext;
 	private DiplomaticRelations relations;
 	
 	public Country(SGMLObject obj) {
 		obj = obj.getChild("country");
 		Logger.get().debug("Loading country: " + obj.getField("name"));
 		data = new CountryData(obj);
-		politicalContext = new LocalPoliticalContext(this);
 		getPopulation(); // init the stored population value.
 	}
 	
@@ -27,10 +24,6 @@ public class Country extends MarketActor implements Comparable<Country> {
 	
 	public CountryData getData() {
 		return data;
-	}
-	
-	public LocalPoliticalContext getPoliticalContext() {
-		return politicalContext;
 	}
 	
 	public long getPopulation() {

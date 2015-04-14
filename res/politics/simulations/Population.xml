@@ -1,11 +1,5 @@
 <simulation>
 	<name>Population</name>
-	<internal>Population</internal>
-	<expression>__INTERNAL_POPULATION__</expression>
-	
-	<representation>
-		<type>BOUNDED_INTEGER_0_TO_MAX</type>
-	</representation>
-	
-	
+	<guiname>Population</guiname>
+	<expression>__POPULATION__</expression>
 </simulation>

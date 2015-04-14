@@ -1,5 +1,7 @@
 package testing.politics;
 
+import politics.DistributedNeuralNetwork2;
+
 public class DistributedNeuralNetwork2Test {
 	public static void main(String[] args) {
 		DistributedNeuralNetwork2 dnn2 = new DistributedNeuralNetwork2();

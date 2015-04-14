@@ -1,7 +1,0 @@
-<simulation>
-	<name>Gross Domestic Product</name>
-	
-	<representation>
-		<type>BOUNDED_INTEGER_0_TO_MAX</type>
-	</representation>
-</simulation>

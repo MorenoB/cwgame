@@ -27,10 +27,24 @@ public class PoliticsEngine {
 		}
 		
 		dnn2.newVariable("__POPULATION__", 0d);
+		dnn2.newVariable("__POP_GROWTH__", 0d);
 		
 		dnn2.finalizeStructures();
 		for(Country country: Countries.getCountries()) {
-			dnn2.newDistribution(country.getData().getName());
+			String countryName = country.getData().getName();
+			dnn2.newDistribution(countryName);
+			dnn2.setDistribution(countryName);
+			
+			// initialize variables to their first values
+			// some variables will keep this value for the rest of their lifetime
+			
+			dnn2.setVariableValue("__POP_GROWTH__", country.getData().getMonthlyPopGrowth());
+			dnn2.setVariableValue("__POPULATION__", country.getData().getPopulation());
+			/*
+			 * TODO Update the neural network system so that __POP_GROWTH__ can be a
+			 * simple variable, and put everything else that affects population growth
+			 * into connections.
+			 */
 		}
 	}
 	

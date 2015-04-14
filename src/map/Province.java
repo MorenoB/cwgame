@@ -41,6 +41,8 @@ public class Province {
 	private final File historyFile;
 	private final int id;
 	private Image image;
+	public final int initialX;
+	public final int initialY;
 	private int minX, minY, maxX, maxY;
 	
 	private final ProvinceMarket provMarket;
@@ -59,6 +61,8 @@ public class Province {
 		winterType = ImageCache.winterMap.getRGB(x, y);
 		final int idSubFile = id / 100;
 		historyFile = getHistoryFile(idSubFile, id);
+		initialX = x;
+		initialY = y;
 		
 		if(historyFile.exists()) {
 			history = SGMLReaderUtil.readFromPath(historyFile);
@@ -185,6 +189,14 @@ public class Province {
 	
 	public int getWinterType() {
 		return winterType;
+	}
+	
+	public TIntList getXPoints() {
+		return xPoints;
+	}
+	
+	public TIntList getYPoints() {
+		return yPoints;
 	}
 	
 	public boolean isWater() {

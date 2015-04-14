@@ -14,6 +14,10 @@ public class Simulation {
 		expression = obj.getField("expression");
 	}
 	
+	public String getExpression() {
+		return expression;
+	}
+	
 	public String getName() {
 		return name;
 	}

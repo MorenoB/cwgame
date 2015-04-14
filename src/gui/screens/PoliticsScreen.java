@@ -73,7 +73,6 @@ public class PoliticsScreen extends AbstractScreen {
 			on.setVisible(true);
 			currentView = view;
 		}
-		
 	}
 	
 	public static enum View {

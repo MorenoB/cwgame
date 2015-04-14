@@ -10,8 +10,13 @@ of the various built-in variables that can be used for expressions.
 		<th>Update Frequency</th>
 	</tr>
 	<tr>
+		<td>__POP_GROWTH__</td>
+		<td>Country-specific</td>
+		<td>Startup</td>
+	</tr>
+	<tr>
 		<td>__POPULATION__</td>
-		<td>Country-specific</asdf>
+		<td>Country-specific</td>
 		<td>Each tick</td>
 	</tr>
 </table>

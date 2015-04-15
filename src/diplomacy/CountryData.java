@@ -91,7 +91,8 @@ public class CountryData {
 		if(obj.hasChild("population")) {
 			SGMLObject population = obj.getChild("population");
 			if(population.hasField("size")) {
-				initialPop = obj.getLong("size");
+				System.out.println(name);
+				initialPop = population.getLong("size");
 			} else {
 				initialPop = 1000;
 			}

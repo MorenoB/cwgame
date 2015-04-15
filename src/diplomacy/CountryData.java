@@ -29,6 +29,7 @@ public class CountryData {
 	private final Image flag;
 	private final String government;
 	private final float green;
+	private final long initialPop;
 	private final Leader leader;
 	private final long money = 0;
 	private final double monthlyPopGrowth;
@@ -89,8 +90,14 @@ public class CountryData {
 		
 		if(obj.hasChild("population")) {
 			SGMLObject population = obj.getChild("population");
+			if(population.hasField("size")) {
+				initialPop = obj.getLong("size");
+			} else {
+				initialPop = 1000;
+			}
 			monthlyPopGrowth = population.getDouble("growth");
 		} else {
+			initialPop = 1000;
 			monthlyPopGrowth = 1.001d;
 		}
 		

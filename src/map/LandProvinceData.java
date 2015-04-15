@@ -32,6 +32,7 @@ public class LandProvinceData extends ProvinceData {
 	private final List<Organisation> organisations = new ArrayList<>();
 	private Country owner;
 	private Population pop;
+	private int popSize;
 	private Resource resource;
 	private final Province self;
 	
@@ -42,6 +43,7 @@ public class LandProvinceData extends ProvinceData {
 		pop = null;
 		resource = ResourceTable.getResource("Grain");
 		this.self = self;
+		popSize = 1;
 	}
 	
 	public LandProvinceData(Province self, SGMLObject history) {
@@ -104,6 +106,9 @@ public class LandProvinceData extends ProvinceData {
 		
 		infrastructure = new Infrastructure(self, history);
 		name = history.getField("name");
+		if(history.hasField("populationSize")) {
+			popSize = history.getInt("populationSize");
+		}
 		
 		if(history.hasChild("organisations")) {
 			
@@ -135,7 +140,7 @@ public class LandProvinceData extends ProvinceData {
 			owner.getData().getProvinces().add(self);
 			CountryData d = owner.getData();
 			if(d != null) {
-			self.setProvinceColor(d.getRed(), d.getGreen(), d.getBlue());
+				self.setProvinceColor(d.getRed(), d.getGreen(), d.getBlue());
 			}
 		}
 	}
